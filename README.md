@@ -1,6 +1,6 @@
 # Микроменеджер Dashboard
 
-> **🚀 [Открыть интерактивное демо →](https://enrey.github.io/dev-dashboard/actions?dateStart=04-14-2025&dateEnd=04-28-2025)**
+> **🚀 [Открыть интерактивное демо →](https://enrey.github.io/dev-dashboard/#/actions?dateStart=04-14-2025&dateEnd=04-28-2025)**
 >
 > Работает полностью в браузере на встроенном анонимизированном тестовом срезе — бэкенд не требуется.
 

@@ -45,6 +45,7 @@ jobs:
         env:
           VITE_DEMO: "true"
           VITE_BASE_PATH: /dev-dashboard/
+          VITE_HASH_ROUTING: "true"
           VITE_DISABLE_PRESENCE: "true"
           VITE_DISABLE_JIRA_USERS: "true"
           VITE_DISABLE_GITLAB_USERS: "true"

@@ -5,7 +5,7 @@ import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import ru from "date-fns/locale/ru";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import { Sidebar } from "shared/components/Sidebar";
 
 import { BackDropBlock, FooterDataLoaderLayout } from "shared/components";
@@ -32,11 +32,16 @@ export const App: FC = () => {
     const handleOpenPopupWithLoadedData = () => setOpen(true);
 
     const handleOnCloseFooter = () => setIsFooterVisible(false);
+    const Router = import.meta.env.VITE_HASH_ROUTING === "true" ? HashRouter : BrowserRouter;
+    const routerBasename = import.meta.env.VITE_HASH_ROUTING === "true"
+        ? undefined
+        : import.meta.env.BASE_URL;
+
     return (
         <ThemeContextProvider>
             <Theme>
                 <LocalizationProvider dateAdapter={AdapterDateFns} adapterLocale={ru}>
-                    <Router basename={import.meta.env.BASE_URL}>
+                    <Router basename={routerBasename}>
                         <SidebarContextProvider>
                             <Box className="app-layout" sx={{ display: "flex" }}>
                                 <Sidebar />
