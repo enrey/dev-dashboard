@@ -1,0 +1,13 @@
+.commit_task {
+    position: absolute;
+    top: 0;
+    font-size: 8px;
+    white-space: nowrap;
+    z-index: 1000;
+    color: #d7dde8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 100px;
+    line-height: 1.2;
+}

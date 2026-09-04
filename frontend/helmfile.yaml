@@ -1,0 +1,6 @@
+helmDefaults:
+  atomic: true
+  wait: true
+
+helmfiles:
+  - "deploy/dashboard-ui/helmfile.yaml"

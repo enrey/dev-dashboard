@@ -1,0 +1,2 @@
+export { TopJiraWidget } from "./TopJiraWidget";
+

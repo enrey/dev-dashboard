@@ -1,0 +1,11 @@
+.MuiDrawer-paperAnchorDockedBottom {
+    flex-direction: row !important;
+    align-items: center;
+    padding-left: 10px;
+    transition: all 0.3s !important;
+
+    &:hover {
+        background-color: #e3e3e3;
+        cursor: pointer;
+    }
+}

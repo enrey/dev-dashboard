@@ -1,0 +1,63 @@
+{
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "jest",
+        "import",
+        "react-hooks"
+      ],
+      "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true
+      },
+      "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+      },
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "ecmaFeatures": {
+          "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "project": "./tsconfig.json"
+      },
+      "rules": {
+        "import/order": [
+            "warn",
+            {
+              "groups": [
+                "builtin",
+                "external",
+                "internal",
+                ["parent",
+                "sibling"]
+              ],
+              "newlines-between": "always",
+              "alphabetize": {
+                "order": "asc",
+                "caseInsensitive": true
+              },
+              "pathGroups": [
+                {
+                  "pattern": "react",
+                  "group": "builtin"
+                },
+                {
+                  "pattern": "{assets,assets/*,core,core/*,hocs,hocs/*,pages,pages/*,routes,routes/*,shared,shared/*,store,store/*,stories,stories/*,styles,styles/*,utils,utils/*}",
+                  "group": "internal"
+                },
+                {
+                  "pattern": "[a-zA-Z@]**",
+                  "group": "external"
+                }
+              ],
+              "pathGroupsExcludedImportTypes": [
+                "builtin"
+              ]
+            }
+          ]
+      }
+}

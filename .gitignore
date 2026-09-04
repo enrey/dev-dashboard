@@ -1,0 +1,32 @@
+.claude
+.codex
+.DS_Store
+.env
+.env.*
+!.env.example
+!*.env.example
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+*.swp
+
+# Node/TS
+node_modules/
+dist/
+build/
+coverage/
+test-results/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# .NET
+bin/
+obj/

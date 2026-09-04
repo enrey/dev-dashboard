@@ -1,0 +1,1 @@
+export const MAX_SHOWING_USER_PROJECTS = 2;

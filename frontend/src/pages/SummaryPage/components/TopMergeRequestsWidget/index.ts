@@ -1,0 +1,2 @@
+export { TopMergeRequestsWidget } from "./TopMergeRequestsWidget";
+

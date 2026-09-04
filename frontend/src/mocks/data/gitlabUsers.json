@@ -1,0 +1,3931 @@
+{
+  "json": [
+    {
+      "email": "demo.user92@example.com",
+      "username": "demo-user-142",
+      "openedTotal": 3,
+      "mergedTotal": 3,
+      "openedDates": [
+        {
+          "dt": "2025-11-24T08:55:47.538Z",
+          "url": "https://gitlab.example.com/demo/project-828/-/merge_requests/1828",
+          "iid": 11511,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 1663"
+        },
+        {
+          "dt": "2025-11-24T08:55:25.25Z",
+          "url": "https://gitlab.example.com/demo/project-829/-/merge_requests/1829",
+          "iid": 11510,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 1663"
+        },
+        {
+          "dt": "2025-11-24T08:52:24.328Z",
+          "url": "https://gitlab.example.com/demo/project-830/-/merge_requests/1830",
+          "iid": 11509,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 1664"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-24T08:52:30.985Z",
+          "url": "https://gitlab.example.com/demo/project-830/-/merge_requests/1830",
+          "iid": 11509,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 1664"
+        },
+        {
+          "dt": "2025-11-24T08:55:52.777Z",
+          "url": "https://gitlab.example.com/demo/project-828/-/merge_requests/1828",
+          "iid": 11511,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 1663"
+        },
+        {
+          "dt": "2025-11-24T08:55:31.044Z",
+          "url": "https://gitlab.example.com/demo/project-829/-/merge_requests/1829",
+          "iid": 11510,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 1663"
+        }
+      ]
+    },
+    {
+      "email": "demo.user53@example.com",
+      "username": "demo-user-79",
+      "openedTotal": 3,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-24T04:08:31.327Z",
+          "url": "https://gitlab.example.com/demo/project-424/-/merge_requests/1424",
+          "iid": 10,
+          "projectId": 459,
+          "repo": "https://gitlab.example.com/demo/project-425.git",
+          "title": "Demo text 818"
+        },
+        {
+          "dt": "2025-11-20T08:35:26.644Z",
+          "url": "https://gitlab.example.com/demo/project-426/-/merge_requests/1426",
+          "iid": 3,
+          "projectId": 1236,
+          "repo": "https://gitlab.example.com/demo/project-427.git",
+          "title": "Demo text 819"
+        },
+        {
+          "dt": "2025-11-24T06:52:05.769Z",
+          "url": "https://gitlab.example.com/demo/project-428/-/merge_requests/1428",
+          "iid": 4,
+          "projectId": 1236,
+          "repo": "https://gitlab.example.com/demo/project-427.git",
+          "title": "Demo text 820"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user04@example.com",
+      "username": "demo-user-08",
+      "openedTotal": 3,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-20T07:27:47.763Z",
+          "url": "https://gitlab.example.com/demo/project-21/-/merge_requests/1021",
+          "iid": 910,
+          "projectId": 720,
+          "repo": "https://gitlab.example.com/demo/project-22.git",
+          "title": "Demo text 71"
+        },
+        {
+          "dt": "2025-11-16T09:45:55.133Z",
+          "url": "https://gitlab.example.com/demo/project-23/-/merge_requests/1023",
+          "iid": 907,
+          "projectId": 720,
+          "repo": "https://gitlab.example.com/demo/project-22.git",
+          "title": "Demo text 72"
+        },
+        {
+          "dt": "2025-11-21T13:57:01.986Z",
+          "url": "https://gitlab.example.com/demo/project-24/-/merge_requests/1024",
+          "iid": 911,
+          "projectId": 720,
+          "repo": "https://gitlab.example.com/demo/project-22.git",
+          "title": "Demo text 73"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user07@example.com",
+      "username": "demo-user-13",
+      "openedTotal": 4,
+      "mergedTotal": 5,
+      "openedDates": [
+        {
+          "dt": "2025-11-21T11:59:58.914Z",
+          "url": "https://gitlab.example.com/demo/project-37/-/merge_requests/1037",
+          "iid": 1870,
+          "projectId": 244,
+          "repo": "https://gitlab.example.com/demo/project-38.git",
+          "title": "Demo text 105"
+        },
+        {
+          "dt": "2025-11-20T15:03:55.622Z",
+          "url": "https://gitlab.example.com/demo/project-39/-/merge_requests/1039",
+          "iid": 1868,
+          "projectId": 244,
+          "repo": "https://gitlab.example.com/demo/project-38.git",
+          "title": "Demo text 106"
+        },
+        {
+          "dt": "2025-11-20T11:42:29.597Z",
+          "url": "https://gitlab.example.com/demo/project-40/-/merge_requests/1040",
+          "iid": 1867,
+          "projectId": 244,
+          "repo": "https://gitlab.example.com/demo/project-38.git",
+          "title": "Demo text 107"
+        },
+        {
+          "dt": "2025-11-21T11:54:23.175Z",
+          "url": "https://gitlab.example.com/demo/project-41/-/merge_requests/1041",
+          "iid": 1869,
+          "projectId": 244,
+          "repo": "https://gitlab.example.com/demo/project-38.git",
+          "title": "Demo text 105"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-20T10:23:09.645Z",
+          "url": "https://gitlab.example.com/demo/project-42/-/merge_requests/1042",
+          "iid": 1864,
+          "projectId": 244,
+          "repo": "https://gitlab.example.com/demo/project-38.git",
+          "title": "Demo text 108"
+        },
+        {
+          "dt": "2025-11-21T08:03:53.897Z",
+          "url": "https://gitlab.example.com/demo/project-39/-/merge_requests/1039",
+          "iid": 1868,
+          "projectId": 244,
+          "repo": "https://gitlab.example.com/demo/project-38.git",
+          "title": "Demo text 106"
+        },
+        {
+          "dt": "2025-11-20T11:56:40.784Z",
+          "url": "https://gitlab.example.com/demo/project-40/-/merge_requests/1040",
+          "iid": 1867,
+          "projectId": 244,
+          "repo": "https://gitlab.example.com/demo/project-38.git",
+          "title": "Demo text 107"
+        },
+        {
+          "dt": "2025-11-20T10:02:20.635Z",
+          "url": "https://gitlab.example.com/demo/project-43/-/merge_requests/1043",
+          "iid": 1865,
+          "projectId": 244,
+          "repo": "https://gitlab.example.com/demo/project-38.git",
+          "title": "Demo text 109"
+        },
+        {
+          "dt": "2025-11-20T10:45:00.678Z",
+          "url": "https://gitlab.example.com/demo/project-44/-/merge_requests/1044",
+          "iid": 1866,
+          "projectId": 244,
+          "repo": "https://gitlab.example.com/demo/project-38.git",
+          "title": "Demo text 110"
+        }
+      ]
+    },
+    {
+      "email": "demo.user87@example.com",
+      "username": "demo-user-133",
+      "openedTotal": 10,
+      "mergedTotal": 12,
+      "openedDates": [
+        {
+          "dt": "2025-11-18T12:14:51.964Z",
+          "url": "https://gitlab.example.com/demo/project-155/-/merge_requests/1155",
+          "iid": 12944,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 334"
+        },
+        {
+          "dt": "2025-11-14T12:21:07.29Z",
+          "url": "https://gitlab.example.com/demo/project-157/-/merge_requests/1157",
+          "iid": 12919,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 335"
+        },
+        {
+          "dt": "2025-11-13T12:17:48.778Z",
+          "url": "https://gitlab.example.com/demo/project-807/-/merge_requests/1807",
+          "iid": 12899,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1599"
+        },
+        {
+          "dt": "2025-11-13T09:41:18.03Z",
+          "url": "https://gitlab.example.com/demo/project-720/-/merge_requests/1720",
+          "iid": 12891,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1497"
+        },
+        {
+          "dt": "2025-11-20T19:02:45.23Z",
+          "url": "https://gitlab.example.com/demo/project-808/-/merge_requests/1808",
+          "iid": 12972,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1600"
+        },
+        {
+          "dt": "2025-11-20T10:05:54.154Z",
+          "url": "https://gitlab.example.com/demo/project-74/-/merge_requests/1074",
+          "iid": 12963,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 176"
+        },
+        {
+          "dt": "2025-11-18T12:58:48.972Z",
+          "url": "https://gitlab.example.com/demo/project-809/-/merge_requests/1809",
+          "iid": 12945,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1601"
+        },
+        {
+          "dt": "2025-11-14T07:47:57.151Z",
+          "url": "https://gitlab.example.com/demo/project-810/-/merge_requests/1810",
+          "iid": 12911,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1602"
+        },
+        {
+          "dt": "2025-11-14T09:52:19.835Z",
+          "url": "https://gitlab.example.com/demo/project-353/-/merge_requests/1353",
+          "iid": 12913,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 705"
+        },
+        {
+          "dt": "2025-11-13T08:46:32.656Z",
+          "url": "https://gitlab.example.com/demo/project-811/-/merge_requests/1811",
+          "iid": 12889,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1603"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-14T06:49:07.969Z",
+          "url": "https://gitlab.example.com/demo/project-149/-/merge_requests/1149",
+          "iid": 12894,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 328"
+        },
+        {
+          "dt": "2025-11-14T09:48:02.705Z",
+          "url": "https://gitlab.example.com/demo/project-810/-/merge_requests/1810",
+          "iid": 12911,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1602"
+        },
+        {
+          "dt": "2025-11-14T09:55:29.617Z",
+          "url": "https://gitlab.example.com/demo/project-342/-/merge_requests/1342",
+          "iid": 12908,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 695"
+        },
+        {
+          "dt": "2025-11-12T09:41:20.736Z",
+          "url": "https://gitlab.example.com/demo/project-352/-/merge_requests/1352",
+          "iid": 12867,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 704"
+        },
+        {
+          "dt": "2025-11-21T07:58:12.999Z",
+          "url": "https://gitlab.example.com/demo/project-808/-/merge_requests/1808",
+          "iid": 12972,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1600"
+        },
+        {
+          "dt": "2025-11-13T13:01:11.493Z",
+          "url": "https://gitlab.example.com/demo/project-343/-/merge_requests/1343",
+          "iid": 12885,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 696"
+        },
+        {
+          "dt": "2025-11-12T09:38:51.012Z",
+          "url": "https://gitlab.example.com/demo/project-344/-/merge_requests/1344",
+          "iid": 12868,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 697"
+        },
+        {
+          "dt": "2025-11-21T06:59:31.723Z",
+          "url": "https://gitlab.example.com/demo/project-152/-/merge_requests/1152",
+          "iid": 12969,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 331"
+        },
+        {
+          "dt": "2025-11-13T13:07:47.878Z",
+          "url": "https://gitlab.example.com/demo/project-807/-/merge_requests/1807",
+          "iid": 12899,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1599"
+        },
+        {
+          "dt": "2025-11-17T13:34:28.027Z",
+          "url": "https://gitlab.example.com/demo/project-811/-/merge_requests/1811",
+          "iid": 12889,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1603"
+        },
+        {
+          "dt": "2025-11-18T13:25:23.902Z",
+          "url": "https://gitlab.example.com/demo/project-809/-/merge_requests/1809",
+          "iid": 12945,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1601"
+        },
+        {
+          "dt": "2025-11-13T12:51:10.421Z",
+          "url": "https://gitlab.example.com/demo/project-347/-/merge_requests/1347",
+          "iid": 12886,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 697"
+        }
+      ]
+    },
+    {
+      "email": "demo.user41@example.com",
+      "username": "demo-user-64",
+      "openedTotal": 2,
+      "mergedTotal": 6,
+      "openedDates": [
+        {
+          "dt": "2025-11-20T12:48:50.611Z",
+          "url": "https://gitlab.example.com/demo/project-292/-/merge_requests/1292",
+          "iid": 11508,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 598"
+        },
+        {
+          "dt": "2025-11-14T11:45:59.769Z",
+          "url": "https://gitlab.example.com/demo/project-293/-/merge_requests/1293",
+          "iid": 11504,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 599"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-25T09:07:51.865Z",
+          "url": "https://gitlab.example.com/demo/project-294/-/merge_requests/1294",
+          "iid": 11502,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 600"
+        },
+        {
+          "dt": "2025-11-20T13:46:24.677Z",
+          "url": "https://gitlab.example.com/demo/project-292/-/merge_requests/1292",
+          "iid": 11508,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 598"
+        },
+        {
+          "dt": "2025-11-25T09:08:30.187Z",
+          "url": "https://gitlab.example.com/demo/project-125/-/merge_requests/1125",
+          "iid": 11507,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 283"
+        },
+        {
+          "dt": "2025-11-18T12:21:11.356Z",
+          "url": "https://gitlab.example.com/demo/project-293/-/merge_requests/1293",
+          "iid": 11504,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 599"
+        },
+        {
+          "dt": "2025-11-25T09:08:51.515Z",
+          "url": "https://gitlab.example.com/demo/project-295/-/merge_requests/1295",
+          "iid": 11503,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 601"
+        },
+        {
+          "dt": "2025-11-18T12:20:57.455Z",
+          "url": "https://gitlab.example.com/demo/project-127/-/merge_requests/1127",
+          "iid": 11505,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 284"
+        }
+      ]
+    },
+    {
+      "email": "demo.user10@example.com",
+      "username": "demo-user-19",
+      "openedTotal": 17,
+      "mergedTotal": 24,
+      "openedDates": [
+        {
+          "dt": "2025-11-24T04:53:50.323Z",
+          "url": "https://gitlab.example.com/demo/project-51/-/merge_requests/1051",
+          "iid": 12995,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 155"
+        },
+        {
+          "dt": "2025-11-22T12:39:02.263Z",
+          "url": "https://gitlab.example.com/demo/project-52/-/merge_requests/1052",
+          "iid": 12992,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 156"
+        },
+        {
+          "dt": "2025-11-21T08:06:58.09Z",
+          "url": "https://gitlab.example.com/demo/project-53/-/merge_requests/1053",
+          "iid": 12977,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 157"
+        },
+        {
+          "dt": "2025-11-21T05:54:47.943Z",
+          "url": "https://gitlab.example.com/demo/project-54/-/merge_requests/1054",
+          "iid": 12975,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 158"
+        },
+        {
+          "dt": "2025-11-20T12:43:56.21Z",
+          "url": "https://gitlab.example.com/demo/project-55/-/merge_requests/1055",
+          "iid": 12970,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 159"
+        },
+        {
+          "dt": "2025-11-22T12:10:45.211Z",
+          "url": "https://gitlab.example.com/demo/project-56/-/merge_requests/1056",
+          "iid": 8,
+          "projectId": 1220,
+          "repo": "https://gitlab.example.com/demo/project-57.git",
+          "title": "Demo text 160"
+        },
+        {
+          "dt": "2025-11-25T05:37:41.367Z",
+          "url": "https://gitlab.example.com/demo/project-11/-/merge_requests/1011",
+          "iid": 13012,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 40"
+        },
+        {
+          "dt": "2025-11-21T07:49:40.588Z",
+          "url": "https://gitlab.example.com/demo/project-58/-/merge_requests/1058",
+          "iid": 7,
+          "projectId": 1220,
+          "repo": "https://gitlab.example.com/demo/project-57.git",
+          "title": "Demo text 161"
+        },
+        {
+          "dt": "2025-11-22T12:24:18.641Z",
+          "url": "https://gitlab.example.com/demo/project-59/-/merge_requests/1059",
+          "iid": 12991,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 155"
+        },
+        {
+          "dt": "2025-11-21T05:41:26.972Z",
+          "url": "https://gitlab.example.com/demo/project-60/-/merge_requests/1060",
+          "iid": 12974,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 162"
+        },
+        {
+          "dt": "2025-11-24T05:48:21.817Z",
+          "url": "https://gitlab.example.com/demo/project-61/-/merge_requests/1061",
+          "iid": 9,
+          "projectId": 1220,
+          "repo": "https://gitlab.example.com/demo/project-57.git",
+          "title": "Demo text 163"
+        },
+        {
+          "dt": "2025-11-21T07:21:26.392Z",
+          "url": "https://gitlab.example.com/demo/project-62/-/merge_requests/1062",
+          "iid": 6,
+          "projectId": 1220,
+          "repo": "https://gitlab.example.com/demo/project-57.git",
+          "title": "Demo text 164"
+        },
+        {
+          "dt": "2025-11-20T09:21:05.387Z",
+          "url": "https://gitlab.example.com/demo/project-63/-/merge_requests/1063",
+          "iid": 5,
+          "projectId": 1220,
+          "repo": "https://gitlab.example.com/demo/project-57.git",
+          "title": "Demo text 165"
+        },
+        {
+          "dt": "2025-11-24T04:57:35.513Z",
+          "url": "https://gitlab.example.com/demo/project-64/-/merge_requests/1064",
+          "iid": 12996,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 166"
+        },
+        {
+          "dt": "2025-11-18T17:25:01.875Z",
+          "url": "https://gitlab.example.com/demo/project-65/-/merge_requests/1065",
+          "iid": 12949,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 167"
+        },
+        {
+          "dt": "2025-11-12T12:43:24.721Z",
+          "url": "https://gitlab.example.com/demo/project-66/-/merge_requests/1066",
+          "iid": 12881,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 168"
+        },
+        {
+          "dt": "2025-11-24T05:53:46.913Z",
+          "url": "https://gitlab.example.com/demo/project-67/-/merge_requests/1067",
+          "iid": 10,
+          "projectId": 1220,
+          "repo": "https://gitlab.example.com/demo/project-57.git",
+          "title": "Demo text 169"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-24T05:48:31.395Z",
+          "url": "https://gitlab.example.com/demo/project-61/-/merge_requests/1061",
+          "iid": 9,
+          "projectId": 1220,
+          "repo": "https://gitlab.example.com/demo/project-57.git",
+          "title": "Demo text 163"
+        },
+        {
+          "dt": "2025-11-21T07:59:10.525Z",
+          "url": "https://gitlab.example.com/demo/project-58/-/merge_requests/1058",
+          "iid": 7,
+          "projectId": 1220,
+          "repo": "https://gitlab.example.com/demo/project-57.git",
+          "title": "Demo text 161"
+        },
+        {
+          "dt": "2025-11-22T12:34:40.741Z",
+          "url": "https://gitlab.example.com/demo/project-59/-/merge_requests/1059",
+          "iid": 12991,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 155"
+        },
+        {
+          "dt": "2025-11-21T07:59:57.779Z",
+          "url": "https://gitlab.example.com/demo/project-54/-/merge_requests/1054",
+          "iid": 12975,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 158"
+        },
+        {
+          "dt": "2025-11-24T05:40:39.447Z",
+          "url": "https://gitlab.example.com/demo/project-68/-/merge_requests/1068",
+          "iid": 12982,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 170"
+        },
+        {
+          "dt": "2025-11-21T07:23:18.92Z",
+          "url": "https://gitlab.example.com/demo/project-62/-/merge_requests/1062",
+          "iid": 6,
+          "projectId": 1220,
+          "repo": "https://gitlab.example.com/demo/project-57.git",
+          "title": "Demo text 164"
+        },
+        {
+          "dt": "2025-11-20T09:21:16.571Z",
+          "url": "https://gitlab.example.com/demo/project-63/-/merge_requests/1063",
+          "iid": 5,
+          "projectId": 1220,
+          "repo": "https://gitlab.example.com/demo/project-57.git",
+          "title": "Demo text 165"
+        },
+        {
+          "dt": "2025-11-24T04:57:46.66Z",
+          "url": "https://gitlab.example.com/demo/project-64/-/merge_requests/1064",
+          "iid": 12996,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 166"
+        },
+        {
+          "dt": "2025-11-24T04:57:20.911Z",
+          "url": "https://gitlab.example.com/demo/project-51/-/merge_requests/1051",
+          "iid": 12995,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 155"
+        },
+        {
+          "dt": "2025-11-20T12:51:12.728Z",
+          "url": "https://gitlab.example.com/demo/project-55/-/merge_requests/1055",
+          "iid": 12970,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 159"
+        },
+        {
+          "dt": "2025-11-18T17:35:12.691Z",
+          "url": "https://gitlab.example.com/demo/project-65/-/merge_requests/1065",
+          "iid": 12949,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 167"
+        },
+        {
+          "dt": "2025-11-14T07:19:38.558Z",
+          "url": "https://gitlab.example.com/demo/project-69/-/merge_requests/1069",
+          "iid": 12854,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 171"
+        },
+        {
+          "dt": "2025-11-24T05:54:02.475Z",
+          "url": "https://gitlab.example.com/demo/project-67/-/merge_requests/1067",
+          "iid": 10,
+          "projectId": 1220,
+          "repo": "https://gitlab.example.com/demo/project-57.git",
+          "title": "Demo text 169"
+        },
+        {
+          "dt": "2025-11-22T12:48:13.62Z",
+          "url": "https://gitlab.example.com/demo/project-52/-/merge_requests/1052",
+          "iid": 12992,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 156"
+        },
+        {
+          "dt": "2025-11-24T06:02:09.645Z",
+          "url": "https://gitlab.example.com/demo/project-70/-/merge_requests/1070",
+          "iid": 12981,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 172"
+        },
+        {
+          "dt": "2025-11-14T07:42:01.245Z",
+          "url": "https://gitlab.example.com/demo/project-71/-/merge_requests/1071",
+          "iid": 12904,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 173"
+        },
+        {
+          "dt": "2025-11-14T08:11:50.979Z",
+          "url": "https://gitlab.example.com/demo/project-5/-/merge_requests/1005",
+          "iid": 12902,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 34"
+        },
+        {
+          "dt": "2025-11-13T08:14:00.352Z",
+          "url": "https://gitlab.example.com/demo/project-66/-/merge_requests/1066",
+          "iid": 12881,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 168"
+        },
+        {
+          "dt": "2025-11-12T12:47:49.003Z",
+          "url": "https://gitlab.example.com/demo/project-72/-/merge_requests/1072",
+          "iid": 12877,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 174"
+        },
+        {
+          "dt": "2025-11-25T05:11:50.506Z",
+          "url": "https://gitlab.example.com/demo/project-8/-/merge_requests/1008",
+          "iid": 13010,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 37"
+        },
+        {
+          "dt": "2025-11-25T05:14:10.769Z",
+          "url": "https://gitlab.example.com/demo/project-73/-/merge_requests/1073",
+          "iid": 13000,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 175"
+        },
+        {
+          "dt": "2025-11-21T07:19:15.262Z",
+          "url": "https://gitlab.example.com/demo/project-60/-/merge_requests/1060",
+          "iid": 12974,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 162"
+        },
+        {
+          "dt": "2025-11-24T08:41:03.229Z",
+          "url": "https://gitlab.example.com/demo/project-74/-/merge_requests/1074",
+          "iid": 12963,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 176"
+        },
+        {
+          "dt": "2025-11-22T12:24:54.039Z",
+          "url": "https://gitlab.example.com/demo/project-56/-/merge_requests/1056",
+          "iid": 8,
+          "projectId": 1220,
+          "repo": "https://gitlab.example.com/demo/project-57.git",
+          "title": "Demo text 160"
+        }
+      ]
+    },
+    {
+      "email": "demo.user34@example.com",
+      "username": "demo-user-52",
+      "openedTotal": 3,
+      "mergedTotal": 3,
+      "openedDates": [
+        {
+          "dt": "2025-11-12T12:15:48.002Z",
+          "url": "https://gitlab.example.com/demo/project-256/-/merge_requests/1256",
+          "iid": 12879,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 479"
+        },
+        {
+          "dt": "2025-11-18T10:55:34.532Z",
+          "url": "https://gitlab.example.com/demo/project-257/-/merge_requests/1257",
+          "iid": 12939,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 480"
+        },
+        {
+          "dt": "2025-11-24T23:31:32.25Z",
+          "url": "https://gitlab.example.com/demo/project-258/-/merge_requests/1258",
+          "iid": 13011,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 481"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-12T12:16:00.174Z",
+          "url": "https://gitlab.example.com/demo/project-256/-/merge_requests/1256",
+          "iid": 12879,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 479"
+        },
+        {
+          "dt": "2025-11-18T10:55:41.065Z",
+          "url": "https://gitlab.example.com/demo/project-257/-/merge_requests/1257",
+          "iid": 12939,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 480"
+        },
+        {
+          "dt": "2025-11-24T23:31:38.228Z",
+          "url": "https://gitlab.example.com/demo/project-258/-/merge_requests/1258",
+          "iid": 13011,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 481"
+        }
+      ]
+    },
+    {
+      "email": "demo.user72@example.com",
+      "username": "demo-user-111",
+      "openedTotal": 3,
+      "mergedTotal": 3,
+      "openedDates": [
+        {
+          "dt": "2025-11-17T11:23:21.105Z",
+          "url": "https://gitlab.example.com/demo/project-653/-/merge_requests/1653",
+          "iid": 12928,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1310"
+        },
+        {
+          "dt": "2025-11-24T13:16:18.552Z",
+          "url": "https://gitlab.example.com/demo/project-654/-/merge_requests/1654",
+          "iid": 5,
+          "projectId": 1236,
+          "repo": "https://gitlab.example.com/demo/project-427.git",
+          "title": "Demo text 1311"
+        },
+        {
+          "dt": "2025-11-13T12:01:22.867Z",
+          "url": "https://gitlab.example.com/demo/project-655/-/merge_requests/1655",
+          "iid": 2,
+          "projectId": 1236,
+          "repo": "https://gitlab.example.com/demo/project-427.git",
+          "title": "Demo text 1292"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-24T13:18:07.085Z",
+          "url": "https://gitlab.example.com/demo/project-654/-/merge_requests/1654",
+          "iid": 5,
+          "projectId": 1236,
+          "repo": "https://gitlab.example.com/demo/project-427.git",
+          "title": "Demo text 1311"
+        },
+        {
+          "dt": "2025-11-14T10:04:53.331Z",
+          "url": "https://gitlab.example.com/demo/project-656/-/merge_requests/1656",
+          "iid": 1,
+          "projectId": 1236,
+          "repo": "https://gitlab.example.com/demo/project-427.git",
+          "title": "Demo text 1312"
+        },
+        {
+          "dt": "2025-11-17T11:24:48.396Z",
+          "url": "https://gitlab.example.com/demo/project-653/-/merge_requests/1653",
+          "iid": 12928,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1310"
+        }
+      ]
+    },
+    {
+      "email": "demo.user05@example.com",
+      "username": "demo-user-10",
+      "openedTotal": 3,
+      "mergedTotal": 1,
+      "openedDates": [
+        {
+          "dt": "2025-11-24T12:51:26.159Z",
+          "url": "https://gitlab.example.com/demo/project-27/-/merge_requests/1027",
+          "iid": 193,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 89"
+        },
+        {
+          "dt": "2025-11-20T12:44:50.559Z",
+          "url": "https://gitlab.example.com/demo/project-29/-/merge_requests/1029",
+          "iid": 192,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 90"
+        },
+        {
+          "dt": "2025-11-14T07:21:38.895Z",
+          "url": "https://gitlab.example.com/demo/project-30/-/merge_requests/1030",
+          "iid": 186,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 91"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-12T06:46:29.842Z",
+          "url": "https://gitlab.example.com/demo/project-31/-/merge_requests/1031",
+          "iid": 183,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 92"
+        }
+      ]
+    },
+    {
+      "email": "demo.user71@example.com",
+      "username": "demo-user-108",
+      "openedTotal": 28,
+      "mergedTotal": 54,
+      "openedDates": [
+        {
+          "dt": "2025-11-19T12:37:29.237Z",
+          "url": "https://gitlab.example.com/demo/project-603/-/merge_requests/1603",
+          "iid": 12958,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1233"
+        },
+        {
+          "dt": "2025-11-14T11:02:59.337Z",
+          "url": "https://gitlab.example.com/demo/project-604/-/merge_requests/1604",
+          "iid": 12916,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1234"
+        },
+        {
+          "dt": "2025-11-13T10:04:16.266Z",
+          "url": "https://gitlab.example.com/demo/project-605/-/merge_requests/1605",
+          "iid": 12892,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1235"
+        },
+        {
+          "dt": "2025-11-12T11:24:56.55Z",
+          "url": "https://gitlab.example.com/demo/project-606/-/merge_requests/1606",
+          "iid": 12876,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1236"
+        },
+        {
+          "dt": "2025-11-18T05:22:51.794Z",
+          "url": "https://gitlab.example.com/demo/project-607/-/merge_requests/1607",
+          "iid": 12937,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1237"
+        },
+        {
+          "dt": "2025-11-14T12:18:04.983Z",
+          "url": "https://gitlab.example.com/demo/project-608/-/merge_requests/1608",
+          "iid": 12918,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1238"
+        },
+        {
+          "dt": "2025-11-14T07:00:45.87Z",
+          "url": "https://gitlab.example.com/demo/project-609/-/merge_requests/1609",
+          "iid": 12907,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1239"
+        },
+        {
+          "dt": "2025-11-12T11:00:16.496Z",
+          "url": "https://gitlab.example.com/demo/project-610/-/merge_requests/1610",
+          "iid": 12875,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1240"
+        },
+        {
+          "dt": "2025-11-25T15:34:43.404Z",
+          "url": "https://gitlab.example.com/demo/project-611/-/merge_requests/1611",
+          "iid": 13030,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1241"
+        },
+        {
+          "dt": "2025-11-24T12:40:05.743Z",
+          "url": "https://gitlab.example.com/demo/project-612/-/merge_requests/1612",
+          "iid": 13005,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 157"
+        },
+        {
+          "dt": "2025-11-21T12:29:16.124Z",
+          "url": "https://gitlab.example.com/demo/project-613/-/merge_requests/1613",
+          "iid": 12983,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1242"
+        },
+        {
+          "dt": "2025-11-25T10:04:28.086Z",
+          "url": "https://gitlab.example.com/demo/project-614/-/merge_requests/1614",
+          "iid": 13020,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1243"
+        },
+        {
+          "dt": "2025-11-25T08:53:32.433Z",
+          "url": "https://gitlab.example.com/demo/project-615/-/merge_requests/1615",
+          "iid": 13019,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1244"
+        },
+        {
+          "dt": "2025-11-25T06:12:12.913Z",
+          "url": "https://gitlab.example.com/demo/project-616/-/merge_requests/1616",
+          "iid": 13014,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1245"
+        },
+        {
+          "dt": "2025-11-20T10:21:23.732Z",
+          "url": "https://gitlab.example.com/demo/project-617/-/merge_requests/1617",
+          "iid": 12965,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1246"
+        },
+        {
+          "dt": "2025-11-18T11:00:23.116Z",
+          "url": "https://gitlab.example.com/demo/project-618/-/merge_requests/1618",
+          "iid": 12941,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1247"
+        },
+        {
+          "dt": "2025-11-17T11:58:03.681Z",
+          "url": "https://gitlab.example.com/demo/project-619/-/merge_requests/1619",
+          "iid": 12929,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1248"
+        },
+        {
+          "dt": "2025-11-14T06:10:14.916Z",
+          "url": "https://gitlab.example.com/demo/project-620/-/merge_requests/1620",
+          "iid": 12905,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1249"
+        },
+        {
+          "dt": "2025-11-21T12:54:49.14Z",
+          "url": "https://gitlab.example.com/demo/project-621/-/merge_requests/1621",
+          "iid": 12984,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1250"
+        },
+        {
+          "dt": "2025-11-20T10:02:48.764Z",
+          "url": "https://gitlab.example.com/demo/project-622/-/merge_requests/1622",
+          "iid": 12962,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1251"
+        },
+        {
+          "dt": "2025-11-19T12:31:03.919Z",
+          "url": "https://gitlab.example.com/demo/project-623/-/merge_requests/1623",
+          "iid": 12956,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1252"
+        },
+        {
+          "dt": "2025-11-18T12:07:08.512Z",
+          "url": "https://gitlab.example.com/demo/project-624/-/merge_requests/1624",
+          "iid": 12943,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1253"
+        },
+        {
+          "dt": "2025-11-17T11:12:11.91Z",
+          "url": "https://gitlab.example.com/demo/project-625/-/merge_requests/1625",
+          "iid": 12927,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1254"
+        },
+        {
+          "dt": "2025-11-14T06:16:31.512Z",
+          "url": "https://gitlab.example.com/demo/project-626/-/merge_requests/1626",
+          "iid": 12906,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1255"
+        },
+        {
+          "dt": "2025-11-13T12:10:36.898Z",
+          "url": "https://gitlab.example.com/demo/project-627/-/merge_requests/1627",
+          "iid": 12898,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1256"
+        },
+        {
+          "dt": "2025-11-13T07:28:56.379Z",
+          "url": "https://gitlab.example.com/demo/project-628/-/merge_requests/1628",
+          "iid": 12884,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1257"
+        },
+        {
+          "dt": "2025-11-13T05:21:23.932Z",
+          "url": "https://gitlab.example.com/demo/project-629/-/merge_requests/1629",
+          "iid": 12883,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1258"
+        },
+        {
+          "dt": "2025-11-12T11:43:44.946Z",
+          "url": "https://gitlab.example.com/demo/project-630/-/merge_requests/1630",
+          "iid": 12878,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1259"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-14T10:28:33Z",
+          "url": "https://gitlab.example.com/demo/project-609/-/merge_requests/1609",
+          "iid": 12907,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1239"
+        },
+        {
+          "dt": "2025-11-14T10:28:15.99Z",
+          "url": "https://gitlab.example.com/demo/project-626/-/merge_requests/1626",
+          "iid": 12906,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1255"
+        },
+        {
+          "dt": "2025-11-14T10:27:43.638Z",
+          "url": "https://gitlab.example.com/demo/project-620/-/merge_requests/1620",
+          "iid": 12905,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1249"
+        },
+        {
+          "dt": "2025-11-14T05:09:48.988Z",
+          "url": "https://gitlab.example.com/demo/project-605/-/merge_requests/1605",
+          "iid": 12892,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1235"
+        },
+        {
+          "dt": "2025-11-12T10:54:44.13Z",
+          "url": "https://gitlab.example.com/demo/project-631/-/merge_requests/1631",
+          "iid": 12866,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1260"
+        },
+        {
+          "dt": "2025-11-12T11:12:24.412Z",
+          "url": "https://gitlab.example.com/demo/project-632/-/merge_requests/1632",
+          "iid": 12853,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1261"
+        },
+        {
+          "dt": "2025-11-12T06:13:32.442Z",
+          "url": "https://gitlab.example.com/demo/project-633/-/merge_requests/1633",
+          "iid": 12852,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1262"
+        },
+        {
+          "dt": "2025-11-25T17:06:00.795Z",
+          "url": "https://gitlab.example.com/demo/project-611/-/merge_requests/1611",
+          "iid": 13030,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1241"
+        },
+        {
+          "dt": "2025-11-24T13:41:51.715Z",
+          "url": "https://gitlab.example.com/demo/project-612/-/merge_requests/1612",
+          "iid": 13005,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 157"
+        },
+        {
+          "dt": "2025-11-25T12:46:17.493Z",
+          "url": "https://gitlab.example.com/demo/project-84/-/merge_requests/1084",
+          "iid": 12978,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 202"
+        },
+        {
+          "dt": "2025-11-21T10:01:52.016Z",
+          "url": "https://gitlab.example.com/demo/project-53/-/merge_requests/1053",
+          "iid": 12977,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 157"
+        },
+        {
+          "dt": "2025-11-21T05:57:28.883Z",
+          "url": "https://gitlab.example.com/demo/project-634/-/merge_requests/1634",
+          "iid": 12966,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1263"
+        },
+        {
+          "dt": "2025-11-21T05:53:05.808Z",
+          "url": "https://gitlab.example.com/demo/project-99/-/merge_requests/1099",
+          "iid": 12959,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 251"
+        },
+        {
+          "dt": "2025-11-21T08:51:08.724Z",
+          "url": "https://gitlab.example.com/demo/project-100/-/merge_requests/1100",
+          "iid": 12933,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 252"
+        },
+        {
+          "dt": "2025-11-18T05:25:19.136Z",
+          "url": "https://gitlab.example.com/demo/project-604/-/merge_requests/1604",
+          "iid": 12916,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1234"
+        },
+        {
+          "dt": "2025-11-18T11:30:23.883Z",
+          "url": "https://gitlab.example.com/demo/project-80/-/merge_requests/1080",
+          "iid": 12909,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 198"
+        },
+        {
+          "dt": "2025-11-19T12:10:04.851Z",
+          "url": "https://gitlab.example.com/demo/project-635/-/merge_requests/1635",
+          "iid": 12773,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1264"
+        },
+        {
+          "dt": "2025-11-19T09:13:51.058Z",
+          "url": "https://gitlab.example.com/demo/project-83/-/merge_requests/1083",
+          "iid": 12950,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 201"
+        },
+        {
+          "dt": "2025-11-21T10:19:40.545Z",
+          "url": "https://gitlab.example.com/demo/project-79/-/merge_requests/1079",
+          "iid": 12946,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 197"
+        },
+        {
+          "dt": "2025-11-19T05:27:24.551Z",
+          "url": "https://gitlab.example.com/demo/project-624/-/merge_requests/1624",
+          "iid": 12943,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1253"
+        },
+        {
+          "dt": "2025-11-19T05:26:21.199Z",
+          "url": "https://gitlab.example.com/demo/project-618/-/merge_requests/1618",
+          "iid": 12941,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1247"
+        },
+        {
+          "dt": "2025-11-18T05:29:36.373Z",
+          "url": "https://gitlab.example.com/demo/project-625/-/merge_requests/1625",
+          "iid": 12927,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1254"
+        },
+        {
+          "dt": "2025-11-18T05:25:49.791Z",
+          "url": "https://gitlab.example.com/demo/project-513/-/merge_requests/1513",
+          "iid": 12923,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1004"
+        },
+        {
+          "dt": "2025-11-14T05:10:09.883Z",
+          "url": "https://gitlab.example.com/demo/project-627/-/merge_requests/1627",
+          "iid": 12898,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1256"
+        },
+        {
+          "dt": "2025-11-17T11:35:08.308Z",
+          "url": "https://gitlab.example.com/demo/project-289/-/merge_requests/1289",
+          "iid": 12887,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 581"
+        },
+        {
+          "dt": "2025-11-12T16:04:30.397Z",
+          "url": "https://gitlab.example.com/demo/project-606/-/merge_requests/1606",
+          "iid": 12876,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1236"
+        },
+        {
+          "dt": "2025-11-24T09:37:57.333Z",
+          "url": "https://gitlab.example.com/demo/project-636/-/merge_requests/1636",
+          "iid": 12999,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1265"
+        },
+        {
+          "dt": "2025-11-24T09:40:03.563Z",
+          "url": "https://gitlab.example.com/demo/project-621/-/merge_requests/1621",
+          "iid": 12984,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1250"
+        },
+        {
+          "dt": "2025-11-25T16:17:00.065Z",
+          "url": "https://gitlab.example.com/demo/project-613/-/merge_requests/1613",
+          "iid": 12983,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1242"
+        },
+        {
+          "dt": "2025-11-21T10:34:12.135Z",
+          "url": "https://gitlab.example.com/demo/project-286/-/merge_requests/1286",
+          "iid": 12961,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 554"
+        },
+        {
+          "dt": "2025-11-17T11:28:57.918Z",
+          "url": "https://gitlab.example.com/demo/project-608/-/merge_requests/1608",
+          "iid": 12918,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1238"
+        },
+        {
+          "dt": "2025-11-18T14:35:21.175Z",
+          "url": "https://gitlab.example.com/demo/project-637/-/merge_requests/1637",
+          "iid": 12914,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1266"
+        },
+        {
+          "dt": "2025-11-13T11:16:47.726Z",
+          "url": "https://gitlab.example.com/demo/project-628/-/merge_requests/1628",
+          "iid": 12884,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1257"
+        },
+        {
+          "dt": "2025-11-13T11:16:09.415Z",
+          "url": "https://gitlab.example.com/demo/project-630/-/merge_requests/1630",
+          "iid": 12878,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1259"
+        },
+        {
+          "dt": "2025-11-12T11:44:12.758Z",
+          "url": "https://gitlab.example.com/demo/project-638/-/merge_requests/1638",
+          "iid": 12871,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1267"
+        },
+        {
+          "dt": "2025-11-14T09:31:00.462Z",
+          "url": "https://gitlab.example.com/demo/project-639/-/merge_requests/1639",
+          "iid": 12865,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1268"
+        },
+        {
+          "dt": "2025-11-13T11:15:27.213Z",
+          "url": "https://gitlab.example.com/demo/project-640/-/merge_requests/1640",
+          "iid": 12847,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1269"
+        },
+        {
+          "dt": "2025-11-14T05:05:00.595Z",
+          "url": "https://gitlab.example.com/demo/project-641/-/merge_requests/1641",
+          "iid": 12840,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1270"
+        },
+        {
+          "dt": "2025-11-25T12:47:39.27Z",
+          "url": "https://gitlab.example.com/demo/project-642/-/merge_requests/1642",
+          "iid": 12980,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1271"
+        },
+        {
+          "dt": "2025-11-21T05:57:54.437Z",
+          "url": "https://gitlab.example.com/demo/project-617/-/merge_requests/1617",
+          "iid": 12965,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1246"
+        },
+        {
+          "dt": "2025-11-21T05:51:24.183Z",
+          "url": "https://gitlab.example.com/demo/project-623/-/merge_requests/1623",
+          "iid": 12956,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1252"
+        },
+        {
+          "dt": "2025-11-18T07:58:48.787Z",
+          "url": "https://gitlab.example.com/demo/project-607/-/merge_requests/1607",
+          "iid": 12937,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1237"
+        },
+        {
+          "dt": "2025-11-18T05:32:14.793Z",
+          "url": "https://gitlab.example.com/demo/project-643/-/merge_requests/1643",
+          "iid": 12931,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1272"
+        },
+        {
+          "dt": "2025-11-18T09:51:02.761Z",
+          "url": "https://gitlab.example.com/demo/project-287/-/merge_requests/1287",
+          "iid": 12924,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 555"
+        },
+        {
+          "dt": "2025-11-13T11:16:30.939Z",
+          "url": "https://gitlab.example.com/demo/project-629/-/merge_requests/1629",
+          "iid": 12883,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1258"
+        },
+        {
+          "dt": "2025-11-12T11:10:30.846Z",
+          "url": "https://gitlab.example.com/demo/project-610/-/merge_requests/1610",
+          "iid": 12875,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1240"
+        },
+        {
+          "dt": "2025-11-14T12:18:46.855Z",
+          "url": "https://gitlab.example.com/demo/project-644/-/merge_requests/1644",
+          "iid": 12807,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1273"
+        },
+        {
+          "dt": "2025-11-21T05:46:05.871Z",
+          "url": "https://gitlab.example.com/demo/project-645/-/merge_requests/1645",
+          "iid": 12806,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1274"
+        },
+        {
+          "dt": "2025-11-25T17:14:50.824Z",
+          "url": "https://gitlab.example.com/demo/project-284/-/merge_requests/1284",
+          "iid": 13025,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 552"
+        },
+        {
+          "dt": "2025-11-25T06:53:42.595Z",
+          "url": "https://gitlab.example.com/demo/project-285/-/merge_requests/1285",
+          "iid": 13001,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 553"
+        },
+        {
+          "dt": "2025-11-21T11:24:47.226Z",
+          "url": "https://gitlab.example.com/demo/project-646/-/merge_requests/1646",
+          "iid": 12964,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1275"
+        },
+        {
+          "dt": "2025-11-24T04:58:15.189Z",
+          "url": "https://gitlab.example.com/demo/project-622/-/merge_requests/1622",
+          "iid": 12962,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1251"
+        },
+        {
+          "dt": "2025-11-19T15:29:30.904Z",
+          "url": "https://gitlab.example.com/demo/project-603/-/merge_requests/1603",
+          "iid": 12958,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1233"
+        },
+        {
+          "dt": "2025-11-20T07:25:28.022Z",
+          "url": "https://gitlab.example.com/demo/project-85/-/merge_requests/1085",
+          "iid": 12952,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 203"
+        }
+      ]
+    },
+    {
+      "email": "demo.user82@example.com",
+      "username": "demo-user-125",
+      "openedTotal": 5,
+      "mergedTotal": 9,
+      "openedDates": [
+        {
+          "dt": "2025-11-24T14:37:44.287Z",
+          "url": "https://gitlab.example.com/demo/project-14/-/merge_requests/1014",
+          "iid": 13008,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 43"
+        },
+        {
+          "dt": "2025-11-17T13:18:16.596Z",
+          "url": "https://gitlab.example.com/demo/project-715/-/merge_requests/1715",
+          "iid": 12932,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1493"
+        },
+        {
+          "dt": "2025-11-18T10:59:05.23Z",
+          "url": "https://gitlab.example.com/demo/project-716/-/merge_requests/1716",
+          "iid": 1,
+          "projectId": 1250,
+          "repo": "https://gitlab.example.com/demo/project-717.git",
+          "title": "Demo text 1494"
+        },
+        {
+          "dt": "2025-11-25T15:21:58.159Z",
+          "url": "https://gitlab.example.com/demo/project-718/-/merge_requests/1718",
+          "iid": 2,
+          "projectId": 1250,
+          "repo": "https://gitlab.example.com/demo/project-717.git",
+          "title": "Demo text 1495"
+        },
+        {
+          "dt": "2025-11-24T12:27:32.204Z",
+          "url": "https://gitlab.example.com/demo/project-719/-/merge_requests/1719",
+          "iid": 13004,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1496"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-25T15:22:14.309Z",
+          "url": "https://gitlab.example.com/demo/project-718/-/merge_requests/1718",
+          "iid": 2,
+          "projectId": 1250,
+          "repo": "https://gitlab.example.com/demo/project-717.git",
+          "title": "Demo text 1495"
+        },
+        {
+          "dt": "2025-11-17T07:27:28.831Z",
+          "url": "https://gitlab.example.com/demo/project-346/-/merge_requests/1346",
+          "iid": 12895,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 699"
+        },
+        {
+          "dt": "2025-11-25T10:57:51.014Z",
+          "url": "https://gitlab.example.com/demo/project-350/-/merge_requests/1350",
+          "iid": 13021,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 702"
+        },
+        {
+          "dt": "2025-11-25T14:13:39.271Z",
+          "url": "https://gitlab.example.com/demo/project-719/-/merge_requests/1719",
+          "iid": 13004,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1496"
+        },
+        {
+          "dt": "2025-11-20T11:12:05.566Z",
+          "url": "https://gitlab.example.com/demo/project-715/-/merge_requests/1715",
+          "iid": 12932,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1493"
+        },
+        {
+          "dt": "2025-11-19T18:55:24.4Z",
+          "url": "https://gitlab.example.com/demo/project-716/-/merge_requests/1716",
+          "iid": 1,
+          "projectId": 1250,
+          "repo": "https://gitlab.example.com/demo/project-717.git",
+          "title": "Demo text 1494"
+        },
+        {
+          "dt": "2025-11-17T10:08:30.731Z",
+          "url": "https://gitlab.example.com/demo/project-345/-/merge_requests/1345",
+          "iid": 12926,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 698"
+        },
+        {
+          "dt": "2025-11-14T13:50:49.449Z",
+          "url": "https://gitlab.example.com/demo/project-349/-/merge_requests/1349",
+          "iid": 12920,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 701"
+        },
+        {
+          "dt": "2025-11-17T10:31:59.867Z",
+          "url": "https://gitlab.example.com/demo/project-720/-/merge_requests/1720",
+          "iid": 12891,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1497"
+        }
+      ]
+    },
+    {
+      "email": "demo.user23@example.com",
+      "username": "demo-user-38",
+      "openedTotal": 10,
+      "mergedTotal": 6,
+      "openedDates": [
+        {
+          "dt": "2025-11-14T05:56:04.798Z",
+          "url": "https://gitlab.example.com/demo/project-146/-/merge_requests/1146",
+          "iid": 12903,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 325"
+        },
+        {
+          "dt": "2025-11-18T07:29:49.62Z",
+          "url": "https://gitlab.example.com/demo/project-147/-/merge_requests/1147",
+          "iid": 12938,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 326"
+        },
+        {
+          "dt": "2025-11-14T11:37:56.759Z",
+          "url": "https://gitlab.example.com/demo/project-148/-/merge_requests/1148",
+          "iid": 12917,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 327"
+        },
+        {
+          "dt": "2025-11-14T06:08:02.511Z",
+          "url": "https://gitlab.example.com/demo/project-71/-/merge_requests/1071",
+          "iid": 12904,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 173"
+        },
+        {
+          "dt": "2025-11-13T11:18:15.307Z",
+          "url": "https://gitlab.example.com/demo/project-149/-/merge_requests/1149",
+          "iid": 12894,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 328"
+        },
+        {
+          "dt": "2025-11-13T09:12:12.889Z",
+          "url": "https://gitlab.example.com/demo/project-150/-/merge_requests/1150",
+          "iid": 12890,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 329"
+        },
+        {
+          "dt": "2025-11-13T08:39:24.553Z",
+          "url": "https://gitlab.example.com/demo/project-151/-/merge_requests/1151",
+          "iid": 12888,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 330"
+        },
+        {
+          "dt": "2025-11-20T12:20:02.558Z",
+          "url": "https://gitlab.example.com/demo/project-152/-/merge_requests/1152",
+          "iid": 12969,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 331"
+        },
+        {
+          "dt": "2025-11-13T12:40:45.299Z",
+          "url": "https://gitlab.example.com/demo/project-153/-/merge_requests/1153",
+          "iid": 12900,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 332"
+        },
+        {
+          "dt": "2025-11-25T12:26:10.818Z",
+          "url": "https://gitlab.example.com/demo/project-154/-/merge_requests/1154",
+          "iid": 13024,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 333"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-13T12:54:54.082Z",
+          "url": "https://gitlab.example.com/demo/project-153/-/merge_requests/1153",
+          "iid": 12900,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 332"
+        },
+        {
+          "dt": "2025-11-13T12:50:14.959Z",
+          "url": "https://gitlab.example.com/demo/project-150/-/merge_requests/1150",
+          "iid": 12890,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 329"
+        },
+        {
+          "dt": "2025-11-19T05:33:32.833Z",
+          "url": "https://gitlab.example.com/demo/project-155/-/merge_requests/1155",
+          "iid": 12944,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 334"
+        },
+        {
+          "dt": "2025-11-18T06:13:23.244Z",
+          "url": "https://gitlab.example.com/demo/project-156/-/merge_requests/1156",
+          "iid": 12934,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 41"
+        },
+        {
+          "dt": "2025-11-14T12:46:36.125Z",
+          "url": "https://gitlab.example.com/demo/project-157/-/merge_requests/1157",
+          "iid": 12919,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 335"
+        },
+        {
+          "dt": "2025-11-13T12:50:47.531Z",
+          "url": "https://gitlab.example.com/demo/project-151/-/merge_requests/1151",
+          "iid": 12888,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 330"
+        }
+      ]
+    },
+    {
+      "email": "demo.user47@example.com",
+      "username": "demo-user-71",
+      "openedTotal": 22,
+      "mergedTotal": 5,
+      "openedDates": [
+        {
+          "dt": "2025-11-25T07:27:11.778Z",
+          "url": "https://gitlab.example.com/demo/project-341/-/merge_requests/1341",
+          "iid": 13016,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 694"
+        },
+        {
+          "dt": "2025-11-21T12:12:25.452Z",
+          "url": "https://gitlab.example.com/demo/project-68/-/merge_requests/1068",
+          "iid": 12982,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 170"
+        },
+        {
+          "dt": "2025-11-14T07:09:10.373Z",
+          "url": "https://gitlab.example.com/demo/project-342/-/merge_requests/1342",
+          "iid": 12908,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 695"
+        },
+        {
+          "dt": "2025-11-13T07:35:12.713Z",
+          "url": "https://gitlab.example.com/demo/project-343/-/merge_requests/1343",
+          "iid": 12885,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 696"
+        },
+        {
+          "dt": "2025-11-12T08:45:59.382Z",
+          "url": "https://gitlab.example.com/demo/project-344/-/merge_requests/1344",
+          "iid": 12868,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 697"
+        },
+        {
+          "dt": "2025-11-20T09:40:25.668Z",
+          "url": "https://gitlab.example.com/demo/project-44/-/merge_requests/1044",
+          "iid": 1866,
+          "projectId": 244,
+          "repo": "https://gitlab.example.com/demo/project-38.git",
+          "title": "Demo text 110"
+        },
+        {
+          "dt": "2025-11-17T09:10:49.43Z",
+          "url": "https://gitlab.example.com/demo/project-345/-/merge_requests/1345",
+          "iid": 12926,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 698"
+        },
+        {
+          "dt": "2025-11-13T11:18:41.257Z",
+          "url": "https://gitlab.example.com/demo/project-346/-/merge_requests/1346",
+          "iid": 12895,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 699"
+        },
+        {
+          "dt": "2025-11-13T07:48:34.769Z",
+          "url": "https://gitlab.example.com/demo/project-347/-/merge_requests/1347",
+          "iid": 12886,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 697"
+        },
+        {
+          "dt": "2025-11-20T08:23:07.226Z",
+          "url": "https://gitlab.example.com/demo/project-43/-/merge_requests/1043",
+          "iid": 1865,
+          "projectId": 244,
+          "repo": "https://gitlab.example.com/demo/project-38.git",
+          "title": "Demo text 109"
+        },
+        {
+          "dt": "2025-11-20T08:09:48.034Z",
+          "url": "https://gitlab.example.com/demo/project-42/-/merge_requests/1042",
+          "iid": 1864,
+          "projectId": 244,
+          "repo": "https://gitlab.example.com/demo/project-38.git",
+          "title": "Demo text 108"
+        },
+        {
+          "dt": "2025-11-24T07:52:42.862Z",
+          "url": "https://gitlab.example.com/demo/project-348/-/merge_requests/1348",
+          "iid": 12998,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 700"
+        },
+        {
+          "dt": "2025-11-17T14:12:28.321Z",
+          "url": "https://gitlab.example.com/demo/project-156/-/merge_requests/1156",
+          "iid": 12934,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 41"
+        },
+        {
+          "dt": "2025-11-14T12:22:10.955Z",
+          "url": "https://gitlab.example.com/demo/project-349/-/merge_requests/1349",
+          "iid": 12920,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 701"
+        },
+        {
+          "dt": "2025-11-25T10:42:50.948Z",
+          "url": "https://gitlab.example.com/demo/project-350/-/merge_requests/1350",
+          "iid": 13021,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 702"
+        },
+        {
+          "dt": "2025-11-21T11:54:33.294Z",
+          "url": "https://gitlab.example.com/demo/project-70/-/merge_requests/1070",
+          "iid": 12981,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 172"
+        },
+        {
+          "dt": "2025-11-14T08:45:02.231Z",
+          "url": "https://gitlab.example.com/demo/project-13/-/merge_requests/1013",
+          "iid": 12912,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 42"
+        },
+        {
+          "dt": "2025-11-24T09:57:25.563Z",
+          "url": "https://gitlab.example.com/demo/project-73/-/merge_requests/1073",
+          "iid": 13000,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 175"
+        },
+        {
+          "dt": "2025-11-20T11:52:56.484Z",
+          "url": "https://gitlab.example.com/demo/project-351/-/merge_requests/1351",
+          "iid": 12968,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 703"
+        },
+        {
+          "dt": "2025-11-19T05:43:42.973Z",
+          "url": "https://gitlab.example.com/demo/project-12/-/merge_requests/1012",
+          "iid": 12953,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 41"
+        },
+        {
+          "dt": "2025-11-12T11:32:46.494Z",
+          "url": "https://gitlab.example.com/demo/project-72/-/merge_requests/1072",
+          "iid": 12877,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 174"
+        },
+        {
+          "dt": "2025-11-12T08:25:24.582Z",
+          "url": "https://gitlab.example.com/demo/project-352/-/merge_requests/1352",
+          "iid": 12867,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 704"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-14T12:35:54.889Z",
+          "url": "https://gitlab.example.com/demo/project-148/-/merge_requests/1148",
+          "iid": 12917,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 327"
+        },
+        {
+          "dt": "2025-11-18T08:29:17.114Z",
+          "url": "https://gitlab.example.com/demo/project-147/-/merge_requests/1147",
+          "iid": 12938,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 326"
+        },
+        {
+          "dt": "2025-11-21T13:17:57.973Z",
+          "url": "https://gitlab.example.com/demo/project-351/-/merge_requests/1351",
+          "iid": 12968,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 703"
+        },
+        {
+          "dt": "2025-11-14T12:37:36.358Z",
+          "url": "https://gitlab.example.com/demo/project-353/-/merge_requests/1353",
+          "iid": 12913,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 705"
+        },
+        {
+          "dt": "2025-11-14T07:57:13.182Z",
+          "url": "https://gitlab.example.com/demo/project-146/-/merge_requests/1146",
+          "iid": 12903,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 325"
+        }
+      ]
+    },
+    {
+      "email": "demo.user57@example.com",
+      "username": "demo-user-84",
+      "openedTotal": 5,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-19T11:59:58.802Z",
+          "url": "https://gitlab.example.com/demo/project-460/-/merge_requests/1460",
+          "iid": 21,
+          "projectId": 1040,
+          "repo": "https://gitlab.example.com/demo/project-461.git",
+          "title": "Demo text 853"
+        },
+        {
+          "dt": "2025-11-25T08:35:00.659Z",
+          "url": "https://gitlab.example.com/demo/project-462/-/merge_requests/1462",
+          "iid": 23,
+          "projectId": 1040,
+          "repo": "https://gitlab.example.com/demo/project-461.git",
+          "title": "Demo text 854"
+        },
+        {
+          "dt": "2025-11-21T10:34:40.483Z",
+          "url": "https://gitlab.example.com/demo/project-463/-/merge_requests/1463",
+          "iid": 22,
+          "projectId": 1040,
+          "repo": "https://gitlab.example.com/demo/project-461.git",
+          "title": "Demo text 855"
+        },
+        {
+          "dt": "2025-11-19T12:00:28.843Z",
+          "url": "https://gitlab.example.com/demo/project-464/-/merge_requests/1464",
+          "iid": 20,
+          "projectId": 1192,
+          "repo": "https://gitlab.example.com/demo/project-465.git",
+          "title": "Demo text 853"
+        },
+        {
+          "dt": "2025-11-19T12:00:51.986Z",
+          "url": "https://gitlab.example.com/demo/project-466/-/merge_requests/1466",
+          "iid": 7,
+          "projectId": 1051,
+          "repo": "https://gitlab.example.com/demo/project-467.git",
+          "title": "Demo text 853"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user01@example.com",
+      "username": "demo-user-02",
+      "openedTotal": 8,
+      "mergedTotal": 9,
+      "openedDates": [
+        {
+          "dt": "2025-11-25T11:25:18.381Z",
+          "url": "https://gitlab.example.com/demo/project-2/-/merge_requests/1002",
+          "iid": 13023,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 32"
+        },
+        {
+          "dt": "2025-11-24T15:59:52.094Z",
+          "url": "https://gitlab.example.com/demo/project-4/-/merge_requests/1004",
+          "iid": 13009,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 33"
+        },
+        {
+          "dt": "2025-11-13T16:14:13.735Z",
+          "url": "https://gitlab.example.com/demo/project-5/-/merge_requests/1005",
+          "iid": 12902,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 34"
+        },
+        {
+          "dt": "2025-11-25T14:33:55.766Z",
+          "url": "https://gitlab.example.com/demo/project-6/-/merge_requests/1006",
+          "iid": 13028,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 35"
+        },
+        {
+          "dt": "2025-11-24T11:24:15.437Z",
+          "url": "https://gitlab.example.com/demo/project-7/-/merge_requests/1007",
+          "iid": 13003,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 36"
+        },
+        {
+          "dt": "2025-11-24T19:35:44.87Z",
+          "url": "https://gitlab.example.com/demo/project-8/-/merge_requests/1008",
+          "iid": 13010,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 37"
+        },
+        {
+          "dt": "2025-11-24T13:35:24.654Z",
+          "url": "https://gitlab.example.com/demo/project-9/-/merge_requests/1009",
+          "iid": 13007,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 38"
+        },
+        {
+          "dt": "2025-11-19T11:30:18.876Z",
+          "url": "https://gitlab.example.com/demo/project-10/-/merge_requests/1010",
+          "iid": 12955,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 39"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-24T14:13:49.341Z",
+          "url": "https://gitlab.example.com/demo/project-9/-/merge_requests/1009",
+          "iid": 13007,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 38"
+        },
+        {
+          "dt": "2025-11-25T15:15:20.792Z",
+          "url": "https://gitlab.example.com/demo/project-6/-/merge_requests/1006",
+          "iid": 13028,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 35"
+        },
+        {
+          "dt": "2025-11-25T07:46:38.76Z",
+          "url": "https://gitlab.example.com/demo/project-11/-/merge_requests/1011",
+          "iid": 13012,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 40"
+        },
+        {
+          "dt": "2025-11-24T19:36:22.703Z",
+          "url": "https://gitlab.example.com/demo/project-4/-/merge_requests/1004",
+          "iid": 13009,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 33"
+        },
+        {
+          "dt": "2025-11-24T12:04:51.526Z",
+          "url": "https://gitlab.example.com/demo/project-7/-/merge_requests/1007",
+          "iid": 13003,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 36"
+        },
+        {
+          "dt": "2025-11-19T10:16:23.287Z",
+          "url": "https://gitlab.example.com/demo/project-12/-/merge_requests/1012",
+          "iid": 12953,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 41"
+        },
+        {
+          "dt": "2025-11-14T12:44:45.794Z",
+          "url": "https://gitlab.example.com/demo/project-13/-/merge_requests/1013",
+          "iid": 12912,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 42"
+        },
+        {
+          "dt": "2025-11-24T08:36:58.788Z",
+          "url": "https://gitlab.example.com/demo/project-10/-/merge_requests/1010",
+          "iid": 12955,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 39"
+        },
+        {
+          "dt": "2025-11-24T15:17:46.081Z",
+          "url": "https://gitlab.example.com/demo/project-14/-/merge_requests/1014",
+          "iid": 13008,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 43"
+        }
+      ]
+    },
+    {
+      "email": "demo.user17@example.com",
+      "username": "demo-user-30",
+      "openedTotal": 5,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-25T13:31:15.993Z",
+          "url": "https://gitlab.example.com/demo/project-98/-/merge_requests/1098",
+          "iid": 13026,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 250"
+        },
+        {
+          "dt": "2025-11-19T14:02:45.482Z",
+          "url": "https://gitlab.example.com/demo/project-99/-/merge_requests/1099",
+          "iid": 12959,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 251"
+        },
+        {
+          "dt": "2025-11-17T13:20:27.96Z",
+          "url": "https://gitlab.example.com/demo/project-100/-/merge_requests/1100",
+          "iid": 12933,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 252"
+        },
+        {
+          "dt": "2025-11-21T15:46:23.547Z",
+          "url": "https://gitlab.example.com/demo/project-101/-/merge_requests/1101",
+          "iid": 12986,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 253"
+        },
+        {
+          "dt": "2025-11-25T13:43:21.131Z",
+          "url": "https://gitlab.example.com/demo/project-102/-/merge_requests/1102",
+          "iid": 13027,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 254"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user88@example.com",
+      "username": "demo-user-135",
+      "openedTotal": 5,
+      "mergedTotal": 3,
+      "openedDates": [
+        {
+          "dt": "2025-11-25T12:32:10.46Z",
+          "url": "https://gitlab.example.com/demo/project-812/-/merge_requests/1812",
+          "iid": 14,
+          "projectId": 1222,
+          "repo": "https://gitlab.example.com/demo/project-77.git",
+          "title": "Demo text 1610"
+        },
+        {
+          "dt": "2025-11-18T12:22:22.357Z",
+          "url": "https://gitlab.example.com/demo/project-813/-/merge_requests/1813",
+          "iid": 12,
+          "projectId": 1222,
+          "repo": "https://gitlab.example.com/demo/project-77.git",
+          "title": "Demo text 1611"
+        },
+        {
+          "dt": "2025-11-12T09:05:19.034Z",
+          "url": "https://gitlab.example.com/demo/project-78/-/merge_requests/1078",
+          "iid": 10,
+          "projectId": 1222,
+          "repo": "https://gitlab.example.com/demo/project-77.git",
+          "title": "Demo text 186"
+        },
+        {
+          "dt": "2025-11-25T08:07:15.146Z",
+          "url": "https://gitlab.example.com/demo/project-814/-/merge_requests/1814",
+          "iid": 13,
+          "projectId": 1222,
+          "repo": "https://gitlab.example.com/demo/project-77.git",
+          "title": "Demo text 1612"
+        },
+        {
+          "dt": "2025-11-14T09:07:32.562Z",
+          "url": "https://gitlab.example.com/demo/project-76/-/merge_requests/1076",
+          "iid": 11,
+          "projectId": 1222,
+          "repo": "https://gitlab.example.com/demo/project-77.git",
+          "title": "Demo text 185"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-18T12:22:30.232Z",
+          "url": "https://gitlab.example.com/demo/project-813/-/merge_requests/1813",
+          "iid": 12,
+          "projectId": 1222,
+          "repo": "https://gitlab.example.com/demo/project-77.git",
+          "title": "Demo text 1611"
+        },
+        {
+          "dt": "2025-11-25T12:32:18.931Z",
+          "url": "https://gitlab.example.com/demo/project-812/-/merge_requests/1812",
+          "iid": 14,
+          "projectId": 1222,
+          "repo": "https://gitlab.example.com/demo/project-77.git",
+          "title": "Demo text 1610"
+        },
+        {
+          "dt": "2025-11-25T08:07:20.409Z",
+          "url": "https://gitlab.example.com/demo/project-814/-/merge_requests/1814",
+          "iid": 13,
+          "projectId": 1222,
+          "repo": "https://gitlab.example.com/demo/project-77.git",
+          "title": "Demo text 1612"
+        }
+      ]
+    },
+    {
+      "email": "demo.user68@example.com",
+      "username": "demo-user-102",
+      "openedTotal": 15,
+      "mergedTotal": 17,
+      "openedDates": [
+        {
+          "dt": "2025-11-21T13:34:39.81Z",
+          "url": "https://gitlab.example.com/demo/project-563/-/merge_requests/1563",
+          "iid": 12985,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 970"
+        },
+        {
+          "dt": "2025-11-12T10:11:50.718Z",
+          "url": "https://gitlab.example.com/demo/project-564/-/merge_requests/1564",
+          "iid": 12872,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1105"
+        },
+        {
+          "dt": "2025-11-22T17:09:38.988Z",
+          "url": "https://gitlab.example.com/demo/project-565/-/merge_requests/1565",
+          "iid": 12994,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1106"
+        },
+        {
+          "dt": "2025-11-22T14:54:20.931Z",
+          "url": "https://gitlab.example.com/demo/project-566/-/merge_requests/1566",
+          "iid": 12993,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1106"
+        },
+        {
+          "dt": "2025-11-22T10:33:11.064Z",
+          "url": "https://gitlab.example.com/demo/project-567/-/merge_requests/1567",
+          "iid": 12990,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1107"
+        },
+        {
+          "dt": "2025-11-18T15:24:11.625Z",
+          "url": "https://gitlab.example.com/demo/project-568/-/merge_requests/1568",
+          "iid": 12947,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1108"
+        },
+        {
+          "dt": "2025-11-14T07:32:46.679Z",
+          "url": "https://gitlab.example.com/demo/project-569/-/merge_requests/1569",
+          "iid": 12910,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1109"
+        },
+        {
+          "dt": "2025-11-13T11:40:55.057Z",
+          "url": "https://gitlab.example.com/demo/project-570/-/merge_requests/1570",
+          "iid": 12896,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1110"
+        },
+        {
+          "dt": "2025-11-21T16:33:55.552Z",
+          "url": "https://gitlab.example.com/demo/project-571/-/merge_requests/1571",
+          "iid": 12988,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1111"
+        },
+        {
+          "dt": "2025-11-18T16:18:00.065Z",
+          "url": "https://gitlab.example.com/demo/project-572/-/merge_requests/1572",
+          "iid": 12948,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1112"
+        },
+        {
+          "dt": "2025-11-17T08:39:07.027Z",
+          "url": "https://gitlab.example.com/demo/project-573/-/merge_requests/1573",
+          "iid": 12925,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1113"
+        },
+        {
+          "dt": "2025-11-17T05:53:29.828Z",
+          "url": "https://gitlab.example.com/demo/project-574/-/merge_requests/1574",
+          "iid": 12922,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1114"
+        },
+        {
+          "dt": "2025-11-24T09:58:23.401Z",
+          "url": "https://gitlab.example.com/demo/project-575/-/merge_requests/1575",
+          "iid": 4,
+          "projectId": 1200,
+          "repo": "https://gitlab.example.com/demo/project-576.git",
+          "title": "Demo text 1115"
+        },
+        {
+          "dt": "2025-11-22T07:17:28.182Z",
+          "url": "https://gitlab.example.com/demo/project-577/-/merge_requests/1577",
+          "iid": 12989,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1116"
+        },
+        {
+          "dt": "2025-11-13T13:38:01.888Z",
+          "url": "https://gitlab.example.com/demo/project-578/-/merge_requests/1578",
+          "iid": 12901,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1117"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-18T16:18:26.828Z",
+          "url": "https://gitlab.example.com/demo/project-572/-/merge_requests/1572",
+          "iid": 12948,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1112"
+        },
+        {
+          "dt": "2025-11-17T07:51:35.33Z",
+          "url": "https://gitlab.example.com/demo/project-574/-/merge_requests/1574",
+          "iid": 12922,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1114"
+        },
+        {
+          "dt": "2025-11-13T11:54:33.885Z",
+          "url": "https://gitlab.example.com/demo/project-570/-/merge_requests/1570",
+          "iid": 12896,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1110"
+        },
+        {
+          "dt": "2025-11-18T07:27:45.834Z",
+          "url": "https://gitlab.example.com/demo/project-502/-/merge_requests/1502",
+          "iid": 134,
+          "projectId": 1227,
+          "repo": "https://gitlab.example.com/demo/project-503.git",
+          "title": "Demo text 971"
+        },
+        {
+          "dt": "2025-11-21T17:06:27.092Z",
+          "url": "https://gitlab.example.com/demo/project-571/-/merge_requests/1571",
+          "iid": 12988,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1111"
+        },
+        {
+          "dt": "2025-11-14T15:48:05.794Z",
+          "url": "https://gitlab.example.com/demo/project-579/-/merge_requests/1579",
+          "iid": 12921,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1118"
+        },
+        {
+          "dt": "2025-11-13T11:43:54.26Z",
+          "url": "https://gitlab.example.com/demo/project-564/-/merge_requests/1564",
+          "iid": 12872,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1105"
+        },
+        {
+          "dt": "2025-11-24T12:51:19.051Z",
+          "url": "https://gitlab.example.com/demo/project-575/-/merge_requests/1575",
+          "iid": 4,
+          "projectId": 1200,
+          "repo": "https://gitlab.example.com/demo/project-576.git",
+          "title": "Demo text 1115"
+        },
+        {
+          "dt": "2025-11-22T14:54:59.42Z",
+          "url": "https://gitlab.example.com/demo/project-566/-/merge_requests/1566",
+          "iid": 12993,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1106"
+        },
+        {
+          "dt": "2025-11-21T13:41:56.925Z",
+          "url": "https://gitlab.example.com/demo/project-563/-/merge_requests/1563",
+          "iid": 12985,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 970"
+        },
+        {
+          "dt": "2025-11-12T14:59:27.338Z",
+          "url": "https://gitlab.example.com/demo/project-504/-/merge_requests/1504",
+          "iid": 12882,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 972"
+        },
+        {
+          "dt": "2025-11-13T05:52:22.844Z",
+          "url": "https://gitlab.example.com/demo/project-580/-/merge_requests/1580",
+          "iid": 12851,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1119"
+        },
+        {
+          "dt": "2025-11-18T15:24:28.685Z",
+          "url": "https://gitlab.example.com/demo/project-568/-/merge_requests/1568",
+          "iid": 12947,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1108"
+        },
+        {
+          "dt": "2025-11-22T17:10:20.057Z",
+          "url": "https://gitlab.example.com/demo/project-565/-/merge_requests/1565",
+          "iid": 12994,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1106"
+        },
+        {
+          "dt": "2025-11-22T10:33:20.443Z",
+          "url": "https://gitlab.example.com/demo/project-567/-/merge_requests/1567",
+          "iid": 12990,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1107"
+        },
+        {
+          "dt": "2025-11-22T07:18:58.176Z",
+          "url": "https://gitlab.example.com/demo/project-577/-/merge_requests/1577",
+          "iid": 12989,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1116"
+        },
+        {
+          "dt": "2025-11-14T09:24:52.614Z",
+          "url": "https://gitlab.example.com/demo/project-569/-/merge_requests/1569",
+          "iid": 12910,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1109"
+        }
+      ]
+    },
+    {
+      "email": "demo.user14@example.com",
+      "username": "demo-user-26",
+      "openedTotal": 7,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-18T14:55:06.802Z",
+          "url": "https://gitlab.example.com/demo/project-79/-/merge_requests/1079",
+          "iid": 12946,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 197"
+        },
+        {
+          "dt": "2025-11-14T07:23:10.66Z",
+          "url": "https://gitlab.example.com/demo/project-80/-/merge_requests/1080",
+          "iid": 12909,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 198"
+        },
+        {
+          "dt": "2025-11-25T08:29:58.314Z",
+          "url": "https://gitlab.example.com/demo/project-81/-/merge_requests/1081",
+          "iid": 13017,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 199"
+        },
+        {
+          "dt": "2025-11-24T07:40:08.059Z",
+          "url": "https://gitlab.example.com/demo/project-82/-/merge_requests/1082",
+          "iid": 12997,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 200"
+        },
+        {
+          "dt": "2025-11-19T05:06:17.985Z",
+          "url": "https://gitlab.example.com/demo/project-83/-/merge_requests/1083",
+          "iid": 12950,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 201"
+        },
+        {
+          "dt": "2025-11-21T08:48:56.117Z",
+          "url": "https://gitlab.example.com/demo/project-84/-/merge_requests/1084",
+          "iid": 12978,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 202"
+        },
+        {
+          "dt": "2025-11-19T05:42:32.141Z",
+          "url": "https://gitlab.example.com/demo/project-85/-/merge_requests/1085",
+          "iid": 12952,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 203"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user63@example.com",
+      "username": "demo-user-93",
+      "openedTotal": 4,
+      "mergedTotal": 1,
+      "openedDates": [
+        {
+          "dt": "2025-11-25T05:52:08.217Z",
+          "url": "https://gitlab.example.com/demo/project-501/-/merge_requests/1501",
+          "iid": 13013,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 970"
+        },
+        {
+          "dt": "2025-11-17T13:35:05.592Z",
+          "url": "https://gitlab.example.com/demo/project-502/-/merge_requests/1502",
+          "iid": 134,
+          "projectId": 1227,
+          "repo": "https://gitlab.example.com/demo/project-503.git",
+          "title": "Demo text 971"
+        },
+        {
+          "dt": "2025-11-12T14:01:59.887Z",
+          "url": "https://gitlab.example.com/demo/project-504/-/merge_requests/1504",
+          "iid": 12882,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 972"
+        },
+        {
+          "dt": "2025-11-21T10:13:10.603Z",
+          "url": "https://gitlab.example.com/demo/project-505/-/merge_requests/1505",
+          "iid": 12979,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 973"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-25T05:58:21.975Z",
+          "url": "https://gitlab.example.com/demo/project-501/-/merge_requests/1501",
+          "iid": 13013,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 970"
+        }
+      ]
+    },
+    {
+      "email": "demo.user32@example.com",
+      "username": "demo-user-48",
+      "openedTotal": 7,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-18T03:28:56.829Z",
+          "url": "https://gitlab.example.com/demo/project-246/-/merge_requests/1246",
+          "iid": 188,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 455"
+        },
+        {
+          "dt": "2025-11-17T07:45:58.272Z",
+          "url": "https://gitlab.example.com/demo/project-247/-/merge_requests/1247",
+          "iid": 187,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 456"
+        },
+        {
+          "dt": "2025-11-18T07:23:11.751Z",
+          "url": "https://gitlab.example.com/demo/project-248/-/merge_requests/1248",
+          "iid": 189,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 457"
+        },
+        {
+          "dt": "2025-11-20T09:07:20.752Z",
+          "url": "https://gitlab.example.com/demo/project-249/-/merge_requests/1249",
+          "iid": 191,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 458"
+        },
+        {
+          "dt": "2025-11-14T06:14:10.072Z",
+          "url": "https://gitlab.example.com/demo/project-250/-/merge_requests/1250",
+          "iid": 185,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 459"
+        },
+        {
+          "dt": "2025-11-13T06:16:11.551Z",
+          "url": "https://gitlab.example.com/demo/project-251/-/merge_requests/1251",
+          "iid": 184,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 460"
+        },
+        {
+          "dt": "2025-11-18T11:20:09.808Z",
+          "url": "https://gitlab.example.com/demo/project-252/-/merge_requests/1252",
+          "iid": 190,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 461"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user65@example.com",
+      "username": "demo-user-96",
+      "openedTotal": 1,
+      "mergedTotal": 4,
+      "openedDates": [
+        {
+          "dt": "2025-11-19T12:17:30.154Z",
+          "url": "https://gitlab.example.com/demo/project-475/-/merge_requests/1475",
+          "iid": 5,
+          "projectId": 1231,
+          "repo": "https://gitlab.example.com/demo/project-476.git",
+          "title": "Demo text 899"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-25T08:39:32.236Z",
+          "url": "https://gitlab.example.com/demo/project-462/-/merge_requests/1462",
+          "iid": 23,
+          "projectId": 1040,
+          "repo": "https://gitlab.example.com/demo/project-461.git",
+          "title": "Demo text 854"
+        },
+        {
+          "dt": "2025-11-21T10:44:41.068Z",
+          "url": "https://gitlab.example.com/demo/project-463/-/merge_requests/1463",
+          "iid": 22,
+          "projectId": 1040,
+          "repo": "https://gitlab.example.com/demo/project-461.git",
+          "title": "Demo text 855"
+        },
+        {
+          "dt": "2025-11-20T07:12:39.144Z",
+          "url": "https://gitlab.example.com/demo/project-460/-/merge_requests/1460",
+          "iid": 21,
+          "projectId": 1040,
+          "repo": "https://gitlab.example.com/demo/project-461.git",
+          "title": "Demo text 853"
+        },
+        {
+          "dt": "2025-11-20T07:12:21.732Z",
+          "url": "https://gitlab.example.com/demo/project-464/-/merge_requests/1464",
+          "iid": 20,
+          "projectId": 1192,
+          "repo": "https://gitlab.example.com/demo/project-465.git",
+          "title": "Demo text 853"
+        }
+      ]
+    },
+    {
+      "email": "demo.user40@example.com",
+      "username": "demo-user-62",
+      "openedTotal": 1,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-19T10:48:15.89Z",
+          "url": "https://gitlab.example.com/demo/project-291/-/merge_requests/1291",
+          "iid": 11506,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 592"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user66@example.com",
+      "username": "demo-user-99",
+      "openedTotal": 4,
+      "mergedTotal": 7,
+      "openedDates": [
+        {
+          "dt": "2025-11-12T10:40:37.253Z",
+          "url": "https://gitlab.example.com/demo/project-510/-/merge_requests/1510",
+          "iid": 12874,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1001"
+        },
+        {
+          "dt": "2025-11-18T11:30:50.111Z",
+          "url": "https://gitlab.example.com/demo/project-511/-/merge_requests/1511",
+          "iid": 12942,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1002"
+        },
+        {
+          "dt": "2025-11-12T10:24:09.499Z",
+          "url": "https://gitlab.example.com/demo/project-512/-/merge_requests/1512",
+          "iid": 12873,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1003"
+        },
+        {
+          "dt": "2025-11-17T07:46:38.06Z",
+          "url": "https://gitlab.example.com/demo/project-513/-/merge_requests/1513",
+          "iid": 12923,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1004"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-18T07:26:23.688Z",
+          "url": "https://gitlab.example.com/demo/project-254/-/merge_requests/1254",
+          "iid": 12936,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 472"
+        },
+        {
+          "dt": "2025-11-19T08:53:52.687Z",
+          "url": "https://gitlab.example.com/demo/project-511/-/merge_requests/1511",
+          "iid": 12942,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1002"
+        },
+        {
+          "dt": "2025-11-14T08:57:18.742Z",
+          "url": "https://gitlab.example.com/demo/project-514/-/merge_requests/1514",
+          "iid": 12869,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1005"
+        },
+        {
+          "dt": "2025-11-12T06:22:56.252Z",
+          "url": "https://gitlab.example.com/demo/project-515/-/merge_requests/1515",
+          "iid": 12857,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1006"
+        },
+        {
+          "dt": "2025-11-24T05:39:26.509Z",
+          "url": "https://gitlab.example.com/demo/project-101/-/merge_requests/1101",
+          "iid": 12986,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 253"
+        },
+        {
+          "dt": "2025-11-17T07:33:51.519Z",
+          "url": "https://gitlab.example.com/demo/project-516/-/merge_requests/1516",
+          "iid": 12915,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1007"
+        },
+        {
+          "dt": "2025-11-12T06:35:54.664Z",
+          "url": "https://gitlab.example.com/demo/project-517/-/merge_requests/1517",
+          "iid": 12848,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1008"
+        }
+      ]
+    },
+    {
+      "email": "demo.user86@example.com",
+      "username": "demo-user-131",
+      "openedTotal": 3,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-17T13:13:44.39Z",
+          "url": "https://gitlab.example.com/demo/project-643/-/merge_requests/1643",
+          "iid": 12931,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1272"
+        },
+        {
+          "dt": "2025-11-12T08:52:12.18Z",
+          "url": "https://gitlab.example.com/demo/project-514/-/merge_requests/1514",
+          "iid": 12869,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1005"
+        },
+        {
+          "dt": "2025-11-14T10:12:29.363Z",
+          "url": "https://gitlab.example.com/demo/project-516/-/merge_requests/1516",
+          "iid": 12915,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1007"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user81@example.com",
+      "username": "demo-user-123",
+      "openedTotal": 2,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-14T07:29:13.386Z",
+          "url": "https://gitlab.example.com/demo/project-712/-/merge_requests/1712",
+          "iid": 905,
+          "projectId": 720,
+          "repo": "https://gitlab.example.com/demo/project-22.git",
+          "title": "Demo text 1442"
+        },
+        {
+          "dt": "2025-11-17T10:49:56.886Z",
+          "url": "https://gitlab.example.com/demo/project-713/-/merge_requests/1713",
+          "iid": 908,
+          "projectId": 720,
+          "repo": "https://gitlab.example.com/demo/project-22.git",
+          "title": "Demo text 1443"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user95@example.com",
+      "username": "demo-user-145",
+      "openedTotal": 0,
+      "mergedTotal": 14,
+      "openedDates": [],
+      "mergedDates": [
+        {
+          "dt": "2025-11-18T08:38:08.664Z",
+          "url": "https://gitlab.example.com/demo/project-248/-/merge_requests/1248",
+          "iid": 189,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 457"
+        },
+        {
+          "dt": "2025-11-14T04:42:21.021Z",
+          "url": "https://gitlab.example.com/demo/project-833/-/merge_requests/1833",
+          "iid": 179,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 1669"
+        },
+        {
+          "dt": "2025-11-24T09:53:38.193Z",
+          "url": "https://gitlab.example.com/demo/project-428/-/merge_requests/1428",
+          "iid": 4,
+          "projectId": 1236,
+          "repo": "https://gitlab.example.com/demo/project-427.git",
+          "title": "Demo text 820"
+        },
+        {
+          "dt": "2025-11-14T07:02:38.137Z",
+          "url": "https://gitlab.example.com/demo/project-250/-/merge_requests/1250",
+          "iid": 185,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 459"
+        },
+        {
+          "dt": "2025-11-18T03:40:41.558Z",
+          "url": "https://gitlab.example.com/demo/project-246/-/merge_requests/1246",
+          "iid": 188,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 455"
+        },
+        {
+          "dt": "2025-11-17T09:05:07.565Z",
+          "url": "https://gitlab.example.com/demo/project-247/-/merge_requests/1247",
+          "iid": 187,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 456"
+        },
+        {
+          "dt": "2025-11-21T09:33:42.485Z",
+          "url": "https://gitlab.example.com/demo/project-426/-/merge_requests/1426",
+          "iid": 3,
+          "projectId": 1236,
+          "repo": "https://gitlab.example.com/demo/project-427.git",
+          "title": "Demo text 819"
+        },
+        {
+          "dt": "2025-11-21T02:16:59.418Z",
+          "url": "https://gitlab.example.com/demo/project-29/-/merge_requests/1029",
+          "iid": 192,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 90"
+        },
+        {
+          "dt": "2025-11-25T06:32:20.711Z",
+          "url": "https://gitlab.example.com/demo/project-249/-/merge_requests/1249",
+          "iid": 191,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 458"
+        },
+        {
+          "dt": "2025-11-19T07:27:18.456Z",
+          "url": "https://gitlab.example.com/demo/project-252/-/merge_requests/1252",
+          "iid": 190,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 461"
+        },
+        {
+          "dt": "2025-11-17T02:13:36.342Z",
+          "url": "https://gitlab.example.com/demo/project-30/-/merge_requests/1030",
+          "iid": 186,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 91"
+        },
+        {
+          "dt": "2025-11-14T06:02:46.127Z",
+          "url": "https://gitlab.example.com/demo/project-251/-/merge_requests/1251",
+          "iid": 184,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 460"
+        },
+        {
+          "dt": "2025-11-24T05:18:23.853Z",
+          "url": "https://gitlab.example.com/demo/project-424/-/merge_requests/1424",
+          "iid": 10,
+          "projectId": 459,
+          "repo": "https://gitlab.example.com/demo/project-425.git",
+          "title": "Demo text 818"
+        },
+        {
+          "dt": "2025-11-21T02:15:51.127Z",
+          "url": "https://gitlab.example.com/demo/project-834/-/merge_requests/1834",
+          "iid": 178,
+          "projectId": 1226,
+          "repo": "https://gitlab.example.com/demo/project-28.git",
+          "title": "Demo text 1670"
+        }
+      ]
+    },
+    {
+      "email": "demo.user60@example.com",
+      "username": "demo-user-89",
+      "openedTotal": 0,
+      "mergedTotal": 1,
+      "openedDates": [],
+      "mergedDates": [
+        {
+          "dt": "2025-11-19T12:29:49.546Z",
+          "url": "https://gitlab.example.com/demo/project-475/-/merge_requests/1475",
+          "iid": 5,
+          "projectId": 1231,
+          "repo": "https://gitlab.example.com/demo/project-476.git",
+          "title": "Demo text 899"
+        }
+      ]
+    },
+    {
+      "email": "demo.user33@example.com",
+      "username": "demo-user-50",
+      "openedTotal": 2,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-20T22:45:05.506Z",
+          "url": "https://gitlab.example.com/demo/project-253/-/merge_requests/1253",
+          "iid": 12973,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 471"
+        },
+        {
+          "dt": "2025-11-17T15:00:44.158Z",
+          "url": "https://gitlab.example.com/demo/project-254/-/merge_requests/1254",
+          "iid": 12936,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 472"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user89@example.com",
+      "username": "demo-user-137",
+      "openedTotal": 13,
+      "mergedTotal": 4,
+      "openedDates": [
+        {
+          "dt": "2025-11-21T10:47:27.702Z",
+          "url": "https://gitlab.example.com/demo/project-642/-/merge_requests/1642",
+          "iid": 12980,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1271"
+        },
+        {
+          "dt": "2025-11-21T07:52:50.768Z",
+          "url": "https://gitlab.example.com/demo/project-815/-/merge_requests/1815",
+          "iid": 12976,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1623"
+        },
+        {
+          "dt": "2025-11-20T10:55:29.177Z",
+          "url": "https://gitlab.example.com/demo/project-634/-/merge_requests/1634",
+          "iid": 12966,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1263"
+        },
+        {
+          "dt": "2025-11-19T12:36:45.943Z",
+          "url": "https://gitlab.example.com/demo/project-816/-/merge_requests/1816",
+          "iid": 12957,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1627"
+        },
+        {
+          "dt": "2025-11-12T09:34:30.11Z",
+          "url": "https://gitlab.example.com/demo/project-817/-/merge_requests/1817",
+          "iid": 12870,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1628"
+        },
+        {
+          "dt": "2025-11-24T08:45:28.018Z",
+          "url": "https://gitlab.example.com/demo/project-636/-/merge_requests/1636",
+          "iid": 12999,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1265"
+        },
+        {
+          "dt": "2025-11-12T09:39:19.479Z",
+          "url": "https://gitlab.example.com/demo/project-638/-/merge_requests/1638",
+          "iid": 12871,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1267"
+        },
+        {
+          "dt": "2025-11-25T07:17:45.401Z",
+          "url": "https://gitlab.example.com/demo/project-818/-/merge_requests/1818",
+          "iid": 13015,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1629"
+        },
+        {
+          "dt": "2025-11-24T11:00:32.074Z",
+          "url": "https://gitlab.example.com/demo/project-819/-/merge_requests/1819",
+          "iid": 13002,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1630"
+        },
+        {
+          "dt": "2025-11-19T14:18:33.232Z",
+          "url": "https://gitlab.example.com/demo/project-820/-/merge_requests/1820",
+          "iid": 12960,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1631"
+        },
+        {
+          "dt": "2025-11-18T10:58:18.468Z",
+          "url": "https://gitlab.example.com/demo/project-821/-/merge_requests/1821",
+          "iid": 12940,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1632"
+        },
+        {
+          "dt": "2025-11-12T08:11:20.848Z",
+          "url": "https://gitlab.example.com/demo/project-631/-/merge_requests/1631",
+          "iid": 12866,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1260"
+        },
+        {
+          "dt": "2025-11-14T09:58:27.788Z",
+          "url": "https://gitlab.example.com/demo/project-637/-/merge_requests/1637",
+          "iid": 12914,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1266"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-13T08:30:00.504Z",
+          "url": "https://gitlab.example.com/demo/project-822/-/merge_requests/1822",
+          "iid": 12859,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1633"
+        },
+        {
+          "dt": "2025-11-21T08:00:14.016Z",
+          "url": "https://gitlab.example.com/demo/project-816/-/merge_requests/1816",
+          "iid": 12957,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1627"
+        },
+        {
+          "dt": "2025-11-25T08:45:59.664Z",
+          "url": "https://gitlab.example.com/demo/project-815/-/merge_requests/1815",
+          "iid": 12976,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1623"
+        },
+        {
+          "dt": "2025-11-19T06:13:12.927Z",
+          "url": "https://gitlab.example.com/demo/project-821/-/merge_requests/1821",
+          "iid": 12940,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1632"
+        }
+      ]
+    },
+    {
+      "email": "demo.user37@example.com",
+      "username": "demo-user-57",
+      "openedTotal": 4,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-25T13:17:01.774Z",
+          "url": "https://gitlab.example.com/demo/project-284/-/merge_requests/1284",
+          "iid": 13025,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 552"
+        },
+        {
+          "dt": "2025-11-24T10:05:07.308Z",
+          "url": "https://gitlab.example.com/demo/project-285/-/merge_requests/1285",
+          "iid": 13001,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 553"
+        },
+        {
+          "dt": "2025-11-19T14:37:22.402Z",
+          "url": "https://gitlab.example.com/demo/project-286/-/merge_requests/1286",
+          "iid": 12961,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 554"
+        },
+        {
+          "dt": "2025-11-17T08:20:31.305Z",
+          "url": "https://gitlab.example.com/demo/project-287/-/merge_requests/1287",
+          "iid": 12924,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 555"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user70@example.com",
+      "username": "demo-user-106",
+      "openedTotal": 2,
+      "mergedTotal": 1,
+      "openedDates": [
+        {
+          "dt": "2025-11-25T11:01:52.769Z",
+          "url": "https://gitlab.example.com/demo/project-601/-/merge_requests/1601",
+          "iid": 13022,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1162"
+        },
+        {
+          "dt": "2025-11-13T10:33:18.882Z",
+          "url": "https://gitlab.example.com/demo/project-602/-/merge_requests/1602",
+          "iid": 12893,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1163"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-14T06:34:50.055Z",
+          "url": "https://gitlab.example.com/demo/project-602/-/merge_requests/1602",
+          "iid": 12893,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1163"
+        }
+      ]
+    },
+    {
+      "email": "demo.user39@example.com",
+      "username": "demo-user-60",
+      "openedTotal": 1,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-13T08:09:45.588Z",
+          "url": "https://gitlab.example.com/demo/project-289/-/merge_requests/1289",
+          "iid": 12887,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 581"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user13@example.com",
+      "username": "demo-user-24",
+      "openedTotal": 0,
+      "mergedTotal": 2,
+      "openedDates": [],
+      "mergedDates": [
+        {
+          "dt": "2025-11-14T09:26:13.472Z",
+          "url": "https://gitlab.example.com/demo/project-76/-/merge_requests/1076",
+          "iid": 11,
+          "projectId": 1222,
+          "repo": "https://gitlab.example.com/demo/project-77.git",
+          "title": "Demo text 185"
+        },
+        {
+          "dt": "2025-11-12T09:29:52.079Z",
+          "url": "https://gitlab.example.com/demo/project-78/-/merge_requests/1078",
+          "iid": 10,
+          "projectId": 1222,
+          "repo": "https://gitlab.example.com/demo/project-77.git",
+          "title": "Demo text 186"
+        }
+      ]
+    },
+    {
+      "email": "demo.user08@example.com",
+      "username": "demo-user-15",
+      "openedTotal": 0,
+      "mergedTotal": 1,
+      "openedDates": [],
+      "mergedDates": [
+        {
+          "dt": "2025-11-13T10:17:22.51Z",
+          "url": "https://gitlab.example.com/demo/project-45/-/merge_requests/1045",
+          "iid": 2,
+          "projectId": 1234,
+          "repo": "https://gitlab.example.com/demo/project-46.git",
+          "title": "Demo text 111"
+        }
+      ]
+    },
+    {
+      "email": "demo.user03@example.com",
+      "username": "demo-user-06",
+      "openedTotal": 1,
+      "mergedTotal": 1,
+      "openedDates": [
+        {
+          "dt": "2025-11-20T17:49:47.797Z",
+          "url": "https://gitlab.example.com/demo/project-18/-/merge_requests/1018",
+          "iid": 446,
+          "projectId": 547,
+          "repo": "https://gitlab.example.com/demo/project-19.git",
+          "title": "Demo text 60"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-20T17:56:07.719Z",
+          "url": "https://gitlab.example.com/demo/project-18/-/merge_requests/1018",
+          "iid": 446,
+          "projectId": 547,
+          "repo": "https://gitlab.example.com/demo/project-19.git",
+          "title": "Demo text 60"
+        }
+      ]
+    },
+    {
+      "email": "demo.user80@example.com",
+      "username": "demo-user-121",
+      "openedTotal": 8,
+      "mergedTotal": 4,
+      "openedDates": [
+        {
+          "dt": "2025-11-20T11:13:35.232Z",
+          "url": "https://gitlab.example.com/demo/project-704/-/merge_requests/1704",
+          "iid": 12967,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1408"
+        },
+        {
+          "dt": "2025-11-17T12:33:10.798Z",
+          "url": "https://gitlab.example.com/demo/project-705/-/merge_requests/1705",
+          "iid": 12930,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1409"
+        },
+        {
+          "dt": "2025-11-25T15:00:46.579Z",
+          "url": "https://gitlab.example.com/demo/project-706/-/merge_requests/1706",
+          "iid": 13029,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1410"
+        },
+        {
+          "dt": "2025-11-13T11:57:53.848Z",
+          "url": "https://gitlab.example.com/demo/project-707/-/merge_requests/1707",
+          "iid": 12897,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1411"
+        },
+        {
+          "dt": "2025-11-18T08:11:33.55Z",
+          "url": "https://gitlab.example.com/demo/project-708/-/merge_requests/1708",
+          "iid": 135,
+          "projectId": 1227,
+          "repo": "https://gitlab.example.com/demo/project-503.git",
+          "title": "Demo text 1412"
+        },
+        {
+          "dt": "2025-11-20T16:31:11.189Z",
+          "url": "https://gitlab.example.com/demo/project-709/-/merge_requests/1709",
+          "iid": 12971,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1413"
+        },
+        {
+          "dt": "2025-11-19T10:29:05.653Z",
+          "url": "https://gitlab.example.com/demo/project-710/-/merge_requests/1710",
+          "iid": 12954,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1414"
+        },
+        {
+          "dt": "2025-11-14T13:59:25.048Z",
+          "url": "https://gitlab.example.com/demo/project-579/-/merge_requests/1579",
+          "iid": 12921,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1118"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-25T11:15:10.536Z",
+          "url": "https://gitlab.example.com/demo/project-709/-/merge_requests/1709",
+          "iid": 12971,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1413"
+        },
+        {
+          "dt": "2025-11-25T11:15:00.243Z",
+          "url": "https://gitlab.example.com/demo/project-704/-/merge_requests/1704",
+          "iid": 12967,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1408"
+        },
+        {
+          "dt": "2025-11-17T13:20:31.534Z",
+          "url": "https://gitlab.example.com/demo/project-705/-/merge_requests/1705",
+          "iid": 12930,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1409"
+        },
+        {
+          "dt": "2025-11-17T10:50:46.369Z",
+          "url": "https://gitlab.example.com/demo/project-573/-/merge_requests/1573",
+          "iid": 12925,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1113"
+        }
+      ]
+    },
+    {
+      "email": "demo.user91@example.com",
+      "username": "demo-user-140",
+      "openedTotal": 4,
+      "mergedTotal": 1,
+      "openedDates": [
+        {
+          "dt": "2025-11-25T08:34:10.83Z",
+          "url": "https://gitlab.example.com/demo/project-825/-/merge_requests/1825",
+          "iid": 13018,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1651"
+        },
+        {
+          "dt": "2025-11-24T12:55:57.697Z",
+          "url": "https://gitlab.example.com/demo/project-826/-/merge_requests/1826",
+          "iid": 13006,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1652"
+        },
+        {
+          "dt": "2025-11-20T10:20:19.758Z",
+          "url": "https://gitlab.example.com/demo/project-646/-/merge_requests/1646",
+          "iid": 12964,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1275"
+        },
+        {
+          "dt": "2025-11-21T16:22:01.018Z",
+          "url": "https://gitlab.example.com/demo/project-827/-/merge_requests/1827",
+          "iid": 12987,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1653"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-21T16:22:31.534Z",
+          "url": "https://gitlab.example.com/demo/project-827/-/merge_requests/1827",
+          "iid": 12987,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 1653"
+        }
+      ]
+    },
+    {
+      "email": "demo.user35@example.com",
+      "username": "demo-user-54",
+      "openedTotal": 2,
+      "mergedTotal": 2,
+      "openedDates": [
+        {
+          "dt": "2025-11-17T14:19:42.54Z",
+          "url": "https://gitlab.example.com/demo/project-261/-/merge_requests/1261",
+          "iid": 12935,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 490"
+        },
+        {
+          "dt": "2025-11-12T12:27:59.687Z",
+          "url": "https://gitlab.example.com/demo/project-262/-/merge_requests/1262",
+          "iid": 12880,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 491"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-20T15:43:43.892Z",
+          "url": "https://gitlab.example.com/demo/project-261/-/merge_requests/1261",
+          "iid": 12935,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 490"
+        },
+        {
+          "dt": "2025-11-18T11:45:27.451Z",
+          "url": "https://gitlab.example.com/demo/project-262/-/merge_requests/1262",
+          "iid": 12880,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 491"
+        }
+      ]
+    },
+    {
+      "email": "demo.user96@example.com",
+      "username": "demo-user-146",
+      "openedTotal": 1,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-17T08:24:07.233Z",
+          "url": "https://gitlab.example.com/demo/project-835/-/merge_requests/1835",
+          "iid": 445,
+          "projectId": 547,
+          "repo": "https://gitlab.example.com/demo/project-19.git",
+          "title": "Demo text 1683"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user84@example.com",
+      "username": "demo-user-128",
+      "openedTotal": 1,
+      "mergedTotal": 4,
+      "openedDates": [
+        {
+          "dt": "2025-11-14T09:28:41.186Z",
+          "url": "https://gitlab.example.com/demo/project-777/-/merge_requests/1777",
+          "iid": 906,
+          "projectId": 720,
+          "repo": "https://gitlab.example.com/demo/project-22.git",
+          "title": "Demo text 1556"
+        }
+      ],
+      "mergedDates": [
+        {
+          "dt": "2025-11-14T09:48:07.624Z",
+          "url": "https://gitlab.example.com/demo/project-777/-/merge_requests/1777",
+          "iid": 906,
+          "projectId": 720,
+          "repo": "https://gitlab.example.com/demo/project-22.git",
+          "title": "Demo text 1556"
+        },
+        {
+          "dt": "2025-11-14T07:49:41.211Z",
+          "url": "https://gitlab.example.com/demo/project-778/-/merge_requests/1778",
+          "iid": 890,
+          "projectId": 720,
+          "repo": "https://gitlab.example.com/demo/project-22.git",
+          "title": "Demo text 1557"
+        },
+        {
+          "dt": "2025-11-14T07:50:23.316Z",
+          "url": "https://gitlab.example.com/demo/project-779/-/merge_requests/1779",
+          "iid": 904,
+          "projectId": 720,
+          "repo": "https://gitlab.example.com/demo/project-22.git",
+          "title": "Demo text 1558"
+        },
+        {
+          "dt": "2025-11-18T08:37:21.189Z",
+          "url": "https://gitlab.example.com/demo/project-780/-/merge_requests/1780",
+          "iid": 900,
+          "projectId": 720,
+          "repo": "https://gitlab.example.com/demo/project-22.git",
+          "title": "Demo text 1559"
+        }
+      ]
+    },
+    {
+      "email": "demo.user50@example.com",
+      "username": "demo-user-75",
+      "openedTotal": 1,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-13T06:30:31.119Z",
+          "url": "https://gitlab.example.com/demo/project-45/-/merge_requests/1045",
+          "iid": 2,
+          "projectId": 1234,
+          "repo": "https://gitlab.example.com/demo/project-46.git",
+          "title": "Demo text 111"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user19@example.com",
+      "username": "demo-user-33",
+      "openedTotal": 3,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-19T14:09:27.99Z",
+          "url": "https://gitlab.example.com/demo/project-125/-/merge_requests/1125",
+          "iid": 11507,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 283"
+        },
+        {
+          "dt": "2025-11-17T12:06:13.492Z",
+          "url": "https://gitlab.example.com/demo/project-127/-/merge_requests/1127",
+          "iid": 11505,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 284"
+        },
+        {
+          "dt": "2025-11-25T07:29:31.731Z",
+          "url": "https://gitlab.example.com/demo/project-128/-/merge_requests/1128",
+          "iid": 11512,
+          "projectId": 90,
+          "repo": "https://gitlab.example.com/demo/project-126.git",
+          "title": "Demo text 285"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user78@example.com",
+      "username": "demo-user-118",
+      "openedTotal": 2,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-25T11:41:04.382Z",
+          "url": "https://gitlab.example.com/demo/project-698/-/merge_requests/1698",
+          "iid": 912,
+          "projectId": 720,
+          "repo": "https://gitlab.example.com/demo/project-22.git",
+          "title": "Demo text 1369"
+        },
+        {
+          "dt": "2025-11-18T17:20:08.106Z",
+          "url": "https://gitlab.example.com/demo/project-699/-/merge_requests/1699",
+          "iid": 909,
+          "projectId": 720,
+          "repo": "https://gitlab.example.com/demo/project-22.git",
+          "title": "Demo text 1370"
+        }
+      ],
+      "mergedDates": []
+    },
+    {
+      "email": "demo.user59@example.com",
+      "username": "demo-user-87",
+      "openedTotal": 1,
+      "mergedTotal": 0,
+      "openedDates": [
+        {
+          "dt": "2025-11-19T05:37:21.522Z",
+          "url": "https://gitlab.example.com/demo/project-473/-/merge_requests/1473",
+          "iid": 12951,
+          "projectId": 132,
+          "repo": "https://gitlab.example.com/demo/project-3.git",
+          "title": "Demo text 873"
+        }
+      ],
+      "mergedDates": []
+    }
+  ]
+}

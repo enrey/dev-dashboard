@@ -1,0 +1,61 @@
+.legend {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: var(--ds-space-2);
+    align-items: center;
+}
+
+.legendItem {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.legendSquare,
+.legendTriangle,
+.legendDot,
+.legendOutline,
+.legendConfluence {
+    width: 8px;
+    height: 8px;
+    flex: 0 0 8px;
+}
+
+.legendSquare {
+    border-radius: 1px;
+    transform: rotate(-45deg);
+}
+
+.legendDot {
+    border-radius: 50%;
+}
+
+.legendTriangle {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 8px solid;
+}
+
+.legendOutline {
+    border-radius: 1px;
+    border: 1px solid;
+}
+
+.legendConfluence {
+    transform: rotate(8deg);
+}
+
+.confluence {
+    color: #00d9db;
+
+    &:after {
+        content: "✖";
+        display: block;
+        line-height: 8px;
+        text-align: center;
+        color: inherit;
+        font-size: 10px;
+    }
+}

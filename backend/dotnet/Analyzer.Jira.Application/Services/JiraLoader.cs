@@ -1,0 +1,131 @@
+﻿using Analyzer.Jira.Application.Configuration;
+using Analyzer.Jira.Application.Dto;
+using Atlassian.Jira;
+using Microsoft.Extensions.Options;
+using Nest;
+using RestSharp;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace Analyzer.Jira.Application.Services
+{
+    public class JiraLoader
+    {
+        private const int USER_STEP = 50;
+        private const int ISSUE_STEP = 200;
+        private readonly JiraConfig _jiraConfig;
+        private readonly Atlassian.Jira.Jira _jiraClient;        
+
+        public JiraLoader(IOptionsMonitor<JiraConfig> jiraConfig)
+        {
+            _jiraConfig = jiraConfig.CurrentValue;
+            _jiraClient = GetClient();
+        }
+
+        public IList<JiraUser> GetAllUsers()
+        {
+            var users = GetUsersAsync();
+            users.Wait();
+
+            return users.Result;
+        }
+
+        [Obsolete]
+        public async Task<IList<Issue>> GetIssuesDaysBack(string days)
+        {
+            return await GetIssuesAsync(@"status was in (Разработка, ""На кодревью"", Переоткрыто) after startOfDay(" + days + ") ORDER BY status DESC");
+        }
+
+        public async Task<IList<Issue>> GetIssuesDuring(DateTimeOffset from, DateTimeOffset till)
+        {
+            var strFrom = from.ToString("yyyy-MM-dd");
+            var strTill = till.ToString("yyyy-MM-dd");
+
+            // https://jira.example.com/issues/?jql=status%20changed%20DURING(%222022-11-01%22%2C%20%222022-11-02%22)
+            // status was in ("Готова для разработки", Разработка, "Разработка завершена", "Ревью", Переоткрыто) DURING("2022-11-01", "2022-11-02") and status changed DURING("2022-11-01", "2022-11-02")
+            return await GetIssuesAsync($"status was in (\"Готова для разработки\", Разработка, \"Разработка завершена\", \"Ревью\", Переоткрыто) DURING(\"{strFrom}\", \"{strTill}\") AND status changed DURING(\"{strFrom}\", \"{strTill}\") ORDER BY status DESC");
+        }
+
+        private async Task<IList<Issue>> GetIssuesAsync(string query)
+        {
+            var startAt = 0;
+            var ttlTask = SearchQuery(query, startAt, 1);
+
+            await Task.WhenAll(ttlTask);
+
+            var total = ttlTask.Result.TotalItems;
+            Console.WriteLine("Total issues to retreive: " + total);
+
+            var tasks = new List<Task<IPagedQueryResult<Issue>>>();
+            while (startAt < total)
+            {
+                var task = SearchQuery(query, startAt, ISSUE_STEP);
+                tasks.Add(task);
+                Console.WriteLine("Task: " + startAt);
+
+                startAt += ISSUE_STEP;
+            }
+
+            await Task.WhenAll(tasks);
+
+            var result = tasks
+                .Select(x => x.Result)
+                .SelectMany(o => o)
+                .ToList();
+
+            return result;
+        }
+
+        private async Task<IPagedQueryResult<Issue>> SearchQuery(string query, int skip, int take)
+        {
+            return await _jiraClient.Issues.GetIssuesFromJqlAsync(query, startAt: skip, maxIssues: take);
+        }
+
+        public async Task<IList<User>> GetAllUsersFromGroup()
+        {
+            var result = await GetUsersInGroupAsync();
+
+            return result.Select(o =>
+                    new User
+                    {
+                        Username = o.Username,
+                        Email = o.Email.ToLower(),
+                        DisplayName = o.DisplayName,
+                        Url = $"{_jiraConfig.Host}/secure/ViewProfile.jspa?name={o.Username}"
+                    }).ToList();
+        }
+
+        private async Task<IList<JiraUser>> GetUsersAsync()
+        {
+            var res = await _jiraClient.Users.SearchUsersAsync(".", maxResults: 1000);
+            return res.ToList();
+        }
+
+        private async Task<IList<JiraUser>> GetUsersInGroupAsync()
+        {
+            var startAt = 0;
+            var total = USER_STEP;
+
+            var all = new List<JiraUser>();
+
+            while (startAt < total)
+            {
+                var res = await _jiraClient.Groups.GetUsersAsync(_jiraConfig.UserGroupName, startAt: startAt, maxResults: USER_STEP);
+                all.AddRange(res.ToList());
+
+                startAt += USER_STEP;
+                total = res.TotalItems;
+            }
+
+            return all;
+        }
+
+        private Atlassian.Jira.Jira GetClient()
+        {
+            return Atlassian.Jira.Jira.CreateRestClient(_jiraConfig.Host, _jiraConfig.Username, _jiraConfig.Pwd);
+        }
+    }
+}

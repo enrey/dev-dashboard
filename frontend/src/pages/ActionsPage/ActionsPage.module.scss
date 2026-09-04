@@ -1,0 +1,37 @@
+.actionsPage {
+    height: 100%;
+    min-width: 0;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    color: var(--ds-text-primary);
+    background: var(--ds-bg);
+}
+
+.filterRow {
+    padding: var(--ds-space-2) var(--ds-space-3);
+    border-bottom: 1px solid var(--ds-border);
+    background: var(--ds-surface);
+}
+
+.roleGroup {
+    margin-left: var(--ds-space-3);
+    gap: var(--ds-space-2);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.roleFilterDivider {
+    margin: 0 var(--ds-space-2) !important;
+    height: var(--ds-space-6);
+}
+
+@media (max-width: 900px) {
+    .filterRow {
+        padding: var(--ds-space-2);
+    }
+
+    .roleGroup {
+        margin-left: 0;
+    }
+}

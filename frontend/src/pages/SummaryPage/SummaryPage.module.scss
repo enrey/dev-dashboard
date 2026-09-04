@@ -1,0 +1,14 @@
+.summaryPage {
+    --ds-page-side-padding: clamp(12px, 3vw, 24px);
+    min-height: 100vh;
+    padding: var(--ds-space-4) var(--ds-page-side-padding) var(--ds-space-6);
+    color: var(--ds-text-primary);
+    background: var(--ds-bg-page);
+}
+
+.summaryGrid {
+    display: grid;
+    gap: var(--ds-space-4);
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-items: start;
+}

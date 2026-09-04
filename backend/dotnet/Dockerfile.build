@@ -1,0 +1,14 @@
+FROM mcr.microsoft.com/dotnet/sdk:7.0.410 AS build
+
+WORKDIR /src
+
+COPY . .
+
+RUN dotnet restore git-an.sln
+RUN dotnet build git-an.sln \
+    --configuration Release \
+    --no-restore
+
+FROM scratch AS result
+
+COPY --from=build /src/git-an.sln /git-an.sln

@@ -1,0 +1,44 @@
+.item-size {
+    &__s {
+        width: 12px;
+        height: 12px;
+    }
+
+    &__m {
+        width: 16px;
+        height: 16px;
+    }
+
+    &__l {
+        width: 20px;
+        height: 20px;
+    }
+
+    &__xl {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.scaleUp {
+    transition: all 0.3s;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.arrow-comment {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent !important;
+    border-right: 8px solid transparent !important;
+
+    border-bottom: 8px solid rgb(32, 212, 0);
+    transition: all 0.3s;
+
+    &:hover {
+        transform: scale(1.4);
+        box-shadow: 2px 4px 26px -1px rgba(34, 60, 80, 0.4);
+    }
+}

@@ -1,0 +1,2 @@
+export { LegendFilter } from "./LegendFilter";
+

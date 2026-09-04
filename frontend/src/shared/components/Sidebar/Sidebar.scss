@@ -1,0 +1,89 @@
+.sidebar-root {
+    --sidebar-item-radius: var(--ds-radius-sm);
+
+    .MuiDrawer-paper {
+        border-right: 1px solid var(--ds-border);
+        background-color: var(--ds-surface);
+        box-shadow: var(--ds-shadow-xs);
+        color: var(--ds-text-primary);
+        transition: width var(--ds-transition-base) var(--ds-transition-ease);
+    }
+
+    .sidebar-toolbar {
+        gap: var(--ds-space-2);
+    }
+
+    .sidebar-title {
+        font-size: 0.96rem;
+        letter-spacing: -0.01em;
+    }
+
+    .sidebar-collapsed-toggle {
+        display: flex;
+        justify-content: center;
+        margin-bottom: var(--ds-space-2);
+    }
+
+    .sidebar-list {
+        padding-top: var(--ds-space-2);
+    }
+
+    .sidebar-item {
+        padding-left: var(--ds-space-2);
+        padding-right: var(--ds-space-2);
+    }
+
+    .sidebar-item-button {
+        border-radius: var(--sidebar-item-radius);
+        margin-bottom: var(--ds-space-1);
+        transition: background-color var(--ds-transition-fast) var(--ds-transition-ease);
+
+        &:hover,
+        &:focus-visible,
+        &.Mui-selected {
+            background-color: rgba(59, 130, 246, 0.08);
+        }
+
+        &.Mui-selected {
+            color: var(--ds-primary);
+            font-weight: 600;
+            border-left: 3px solid var(--ds-primary);
+        }
+
+        .MuiListItemIcon-root {
+            min-width: 34px;
+            margin-right: var(--ds-space-3);
+            color: currentColor;
+        }
+    }
+
+    .sidebar-collapse-btn {
+        width: 28px;
+        height: 28px;
+    }
+
+    .sidebar-footer {
+        padding-top: var(--ds-space-2);
+        padding-bottom: var(--ds-space-2);
+        border-top: 1px solid var(--ds-border);
+    }
+}
+
+.sidebar-root--collapsed {
+    .sidebar-toolbar {
+        justify-content: center;
+        padding-left: var(--ds-space-1);
+        padding-right: var(--ds-space-1);
+    }
+
+    .sidebar-item {
+        padding-left: var(--ds-space-1);
+        padding-right: var(--ds-space-1);
+    }
+
+    .sidebar-item-button {
+        .MuiListItemIcon-root {
+            margin-right: 0;
+        }
+    }
+}

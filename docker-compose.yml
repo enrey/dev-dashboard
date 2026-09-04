@@ -1,0 +1,205 @@
+services:
+  opensearch-node1:
+    image: opensearchproject/opensearch:latest
+    environment:
+      - cluster.name=opensearch-cluster # Name the cluster
+      - node.name=opensearch-node1 # Name the node that will run in this container
+      - discovery.seed_hosts=opensearch-node1,opensearch-node2 # Nodes to look for when discovering the cluster
+      - cluster.initial_cluster_manager_nodes=opensearch-node1,opensearch-node2 # Nodes eligibile to serve as cluster manager
+      - bootstrap.memory_lock=true # Disable JVM heap memory swapping
+      - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m" # Set min and max JVM heap sizes to at least 50% of system RAM
+      - "DISABLE_INSTALL_DEMO_CONFIG=true" # Prevents execution of bundled demo script which installs demo certificates and security configurations to OpenSearch
+      - "DISABLE_SECURITY_PLUGIN=true" # Disables Security plugin
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536  # maximum number of open files for the OpenSearch user, set to at least 65536 on modern systems
+        hard: 65536
+    volumes:
+      - opensearch-data1:/usr/share/opensearch/data
+    ports:
+      - 9200:9200
+      - 9600:9600  # required for Performance Analyzer
+    networks:
+      - dashboard-net
+
+  opensearch-node2:
+    image: opensearchproject/opensearch:latest
+    environment:
+      - cluster.name=opensearch-cluster
+      - node.name=opensearch-node2
+      - discovery.seed_hosts=opensearch-node1,opensearch-node2
+      - cluster.initial_cluster_manager_nodes=opensearch-node1,opensearch-node2
+      - bootstrap.memory_lock=true
+      - OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m
+      - "DISABLE_INSTALL_DEMO_CONFIG=true" # Prevents execution of bundled demo script which installs demo certificates and security configurations to OpenSearch
+      - "DISABLE_SECURITY_PLUGIN=true" # Disables Security plugin
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    volumes:
+      - opensearch-data2:/usr/share/opensearch/data
+    networks:
+      - dashboard-net
+
+  opensearch-dashboards:
+    image: opensearchproject/opensearch-dashboards:latest
+    ports:
+      - 5601:5601
+    expose:
+      - '5601'
+    environment:
+      - 'OPENSEARCH_HOSTS=["http://opensearch-node1:9200","http://opensearch-node2:9200"]'
+      - "DISABLE_SECURITY_DASHBOARDS_PLUGIN=true" # disables security dashboards plugin in OpenSearch Dashboards
+    networks:
+      - dashboard-net
+
+  users-state-postgres:
+    image: postgres:16
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: users_state_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - users-state-pg-data:/var/lib/postgresql/data
+    networks:
+      - dashboard-net
+
+  users-state-api:
+    build:
+      context: ./backend/python/users-state
+    ports:
+      - "5005:5005"
+    environment:
+      DATABASE_URL: "postgresql+asyncpg://postgres:postgres@users-state-postgres:5432/users_state_db"
+      APP_PORT: "5005"
+      LOG_LEVEL: "INFO"
+    depends_on:
+      - users-state-postgres
+    networks:
+      - dashboard-net
+
+  jira-api:
+    build:
+      context: ./backend/dotnet
+      dockerfile: Analyzer.Jira.Web.Api/Dockerfile
+    ports:
+      - "5001:5001"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:5001
+      ElasticSearch__ElasticSearchUrl: http://opensearch-node1:9200
+      ReadOnlyMode: "true"
+    depends_on:
+      - opensearch-node1
+    networks:
+      - dashboard-net
+
+  git-api:
+    build:
+      context: ./backend/dotnet
+      dockerfile: Analyzer.Git.Web.Api/Dockerfile
+    ports:
+      - "5002:5002"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:5002
+      ElasticSearch__ElasticSearchUrl: http://opensearch-node1:9200
+      LocalServices__Gitlab__BaseUrl: http://gitlab-api:5003/api/GitLab
+      ReadOnlyMode: "true"
+    depends_on:
+      - opensearch-node1
+    networks:
+      - dashboard-net
+
+  gitlab-api:
+    build:
+      context: ./backend/dotnet
+      dockerfile: Analyzer.GitLab.Web.Api/Dockerfile
+    ports:
+      - "5003:5003"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:5003
+      ElasticSearch__ElasticSearchUrl: http://opensearch-node1:9200
+      ReadOnlyMode: "true"
+    depends_on:
+      - opensearch-node1
+    networks:
+      - dashboard-net
+
+  confluence-api:
+    build:
+      context: ./backend/dotnet
+      dockerfile: Analyzer.Confluence.Web.Api/Dockerfile
+    ports:
+      - "5006:5006"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:5006
+      ElasticSearch__ElasticSearchUrl: http://opensearch-node1:9200
+      ReadOnlyMode: "true"
+    depends_on:
+      - opensearch-node1
+    networks:
+      - dashboard-net
+
+  redis:
+    image: redis:6.2.5-alpine
+    networks:
+      - dashboard-net
+
+  background-jobs-api:
+    build:
+      context: ./backend/dotnet
+      dockerfile: Analyzer.BackgroundJobs.Server/Dockerfile
+    ports:
+      - "5004:5004"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:5004
+      ConnectionStrings__Redis: redis:6379
+      Services__Jira__Url: http://jira-api:5001
+      Services__Confluence__Url: http://confluence-api:5006
+      Services__Git__Url: http://git-api:5002
+      Services__GitLab__Url: http://gitlab-api:5003
+      ReadOnlyMode: "true"
+    depends_on:
+      - redis
+      - jira-api
+      - git-api
+      - gitlab-api
+      - confluence-api
+    networks:
+      - dashboard-net
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_SHOW_DATE: 2025-04-28
+        VITE_DISABLE_PRESENCE: "true"
+        VITE_DISABLE_JIRA_USERS: "true"
+        VITE_DISABLE_GITLAB_USERS: "true"
+    ports:
+      - "8081:80"
+    depends_on:
+      - users-state-api
+    networks:
+      - dashboard-net
+
+volumes:
+  opensearch-data1:
+  opensearch-data2:
+  users-state-pg-data:
+
+networks:
+  dashboard-net:

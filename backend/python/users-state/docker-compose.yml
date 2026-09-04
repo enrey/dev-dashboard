@@ -1,0 +1,25 @@
+services:
+  postgres:
+    image: postgres:16
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: users_state_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - users_state_pg_data:/var/lib/postgresql/data
+
+  users-state-api:
+    build: .
+    ports:
+      - "5005:5005"
+    environment:
+      DATABASE_URL: "postgresql+asyncpg://postgres:postgres@postgres:5432/users_state_db"
+      APP_PORT: "5005"
+      LOG_LEVEL: "INFO"
+    depends_on:
+      - postgres
+
+volumes:
+  users_state_pg_data:

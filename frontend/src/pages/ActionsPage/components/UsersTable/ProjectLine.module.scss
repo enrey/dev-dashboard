@@ -1,0 +1,26 @@
+.projects {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    margin-bottom: 8px;
+
+    &:not(:last-child) {
+        margin-bottom: 2px;
+    }
+
+    &:last-child {
+        margin-bottom: var(--ds-space-1);
+    }
+}
+
+.projectsButton {
+    margin-top: -2px;
+    min-height: unset;
+    min-width: unset;
+    padding-left: 0;
+    padding-right: 0;
+    color: var(--ds-text-secondary);
+    text-transform: none;
+}

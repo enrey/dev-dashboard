@@ -1,0 +1,69 @@
+version: '3'
+services:
+    analyzer-jira:
+        container_name: analyzer_jira
+        image: digital-fingerprints/analyzer-jira:latest
+        ports:
+        - "5001:5001"
+        volumes:
+        - repos:/app/Repos
+        environment:
+          ASPNETCORE_ENVIRONMENT: "Development"
+        networks:
+        - dashboard-net
+
+    analyzer-git:
+        container_name: analyzer_git
+        image: digital-fingerprints/analyzer-git:latest
+        ports:
+        - "5002:80"
+        volumes:
+        - repos:/app/Repos
+        environment:
+          ASPNETCORE_ENVIRONMENT: "Development"
+        networks:
+        - dashboard-net
+
+    analyzer-gitlab:
+        container_name: analyzer_gitlab
+        image: digital-fingerprints/analyzer-gitlab:latest
+        ports:
+        - "5003:5003"
+        volumes:
+        - repos:/app/Repos
+        environment:
+          ASPNETCORE_ENVIRONMENT: "Development"
+        networks:
+        - dashboard-net
+
+    analyzer-usersstate:
+        container_name: analyzer_usersstate
+        image: digital-fingerprints/analyzer-usersstate:latest
+        ports:
+        - "5005:5005"
+        environment:
+          DATABASE_URL: "${DATABASE_URL}"
+        networks:
+        - dashboard-net
+
+    uidashboard:
+        container_name: uidashboard
+        image: digital-fingerprints/dashboard-ui:latest
+        ports:
+        - "8081:80"
+        networks:
+        - dashboard-net
+
+    redis:
+        image: redis:6.2.5-alpine
+        ports:
+        - 6379:6379
+        networks:
+        - dashboard-net
+
+networks:
+    dashboard-net:
+        external: true
+
+volumes:
+    repos:

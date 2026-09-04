@@ -1,0 +1,65 @@
+@forward "./shared/styles/dashboard-tokens";
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Fira+Sans:wght@400;500;600;700&display=swap");
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--ds-font-family);
+    color: var(--ds-text-primary);
+    background: var(--ds-bg);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-size: 15px;
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+}
+
+code {
+    font-family: var(--ds-font-family-mono);
+}
+
+:focus-visible {
+    outline: 2px solid var(--ds-accent) !important;
+    outline-offset: 2px;
+}
+
+.app-layout {
+    min-height: 100vh;
+}
+
+.app-main {
+    background: var(--ds-bg);
+    overflow: hidden;
+}
+
+.app-main-content {
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    padding: 0 0 clamp(0.75rem, 1.5vw, var(--ds-space-5));
+}
+
+.table-fit {
+    padding-left: 5px;
+    padding-top: 1px;
+}
+
+@keyframes blink {
+    0%,
+    100% {
+        border-color: var(--ds-primary);
+        box-shadow: 0 0 0 0 rgb(30 64 175 / 70%);
+    }
+    50% {
+        border-color: var(--ds-secondary);
+        box-shadow: 0 0 0 4px rgb(59 130 246 / 30%);
+    }
+}

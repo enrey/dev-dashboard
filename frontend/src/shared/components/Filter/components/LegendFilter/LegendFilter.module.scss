@@ -1,0 +1,8 @@
+.confluence {
+    transform: rotate(8deg);
+    &:after {
+        content: "✖";
+        color: #00d9db;
+    }
+}
+

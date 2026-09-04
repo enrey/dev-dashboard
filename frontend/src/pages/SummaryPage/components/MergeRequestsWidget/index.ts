@@ -1,0 +1,2 @@
+export { MergeRequestsWidget } from "./MergeRequestsWidget";
+
