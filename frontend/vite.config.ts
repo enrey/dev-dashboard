@@ -4,6 +4,8 @@ import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // GitHub Pages publishes this project under /dev-dashboard/; local builds stay at /.
+  base: process.env.VITE_BASE_PATH || '/',
   plugins: [
     react({
       jsxImportSource: '@emotion/react',
