@@ -36,7 +36,7 @@ export const App: FC = () => {
         <ThemeContextProvider>
             <Theme>
                 <LocalizationProvider dateAdapter={AdapterDateFns} adapterLocale={ru}>
-                    <Router>
+                    <Router basename={import.meta.env.BASE_URL}>
                         <SidebarContextProvider>
                             <Box className="app-layout" sx={{ display: "flex" }}>
                                 <Sidebar />
