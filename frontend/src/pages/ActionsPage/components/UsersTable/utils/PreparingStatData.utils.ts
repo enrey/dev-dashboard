@@ -16,11 +16,29 @@ const chartTypeToSourceType: Record<ChartTypeEnum, SourceTypes> = {
     [ChartTypeEnum.CONFLUENCE]: SourceTypes.confluence,
 };
 
+const demoSnapshotStart = Date.parse("2025-04-14T00:00:00.000Z");
+const demoSnapshotEnd = Date.parse("2025-04-28T23:59:59.999Z");
+
+const toGridDate = (value: string, firstGridDay: Date): string => {
+    if (import.meta.env.VITE_DEMO !== "true") {
+        return value;
+    }
+
+    const itemDate = Date.parse(value);
+    if (Number.isNaN(itemDate) || itemDate < demoSnapshotStart || itemDate > demoSnapshotEnd) {
+        return value;
+    }
+
+    return new Date(itemDate + firstGridDay.getTime() - demoSnapshotStart).toISOString();
+};
+
 export const preparingStatData = (
     days: Date[],
     userData: GitAnalyzerChartData,
     chartTypes: ChartTypeEnum[]
 ): TimeLineStats[] => {
+    const firstGridDay = days[0];
+
     return days.map((date) => {
         const stringDate = format(date, "yyyy-MM-dd");
         const presence =
@@ -33,7 +51,7 @@ export const preparingStatData = (
         const dayTasks = userData.tasks
             .slice()
             .reverse()
-            .filter(({ date }) => format(new Date(date), "yyyy-MM-dd") === stringDate);
+            .filter(({ date }) => format(new Date(toGridDate(date, firstGridDay)), "yyyy-MM-dd") === stringDate);
 
         // Дедуплицируем задачи по номеру
         const dedupedDayTasks = dedupGitJiraTasks(dayTasks);
@@ -48,12 +66,12 @@ export const preparingStatData = (
             return {
                 title,
                 url: issueUrl,
-                createdAt: date,
+                createdAt: toGridDate(date, firstGridDay),
             };
         }) ?? [];
 
         const commits = userData.gitStatistics
-            .filter((ud) => format(new Date(ud.date), "yyyy-MM-dd") === stringDate)
+            .filter((ud) => format(new Date(toGridDate(ud.date, firstGridDay)), "yyyy-MM-dd") === stringDate)
             .map(({ commitsArray, webUI }) =>
                 commitsArray.map(({ message, total, sha, changedFilesCount, commitDate }) => {
                     let variant = TimeLineItemVariant.small;
@@ -64,7 +82,7 @@ export const preparingStatData = (
                         title: `${message}Строк кода: ${total}\nФайлов: ${changedFilesCount}`,
                         variant,
                         url: `${webUI}/commit/${sha}`,
-                        createdAt: commitDate,
+                        createdAt: toGridDate(commitDate, firstGridDay),
                     };
                 })
             )
@@ -72,30 +90,30 @@ export const preparingStatData = (
 
         const mrOpened =
             (userData.gitlabStatistics?.openedDates as GitlabInfoDate[])?.filter((ud) => {
-                const stringDt = ud.dt.split("T")[0];
+                const stringDt = toGridDate(ud.dt, firstGridDay).split("T")[0];
                 return stringDt === stringDate;
             }) ?? [];
 
         const mrClosed =
             (userData.gitlabStatistics?.mergedDates as GitlabInfoDate[])?.filter((ud) => {
-                const stringDt = ud.dt.split("T")[0];
+                const stringDt = toGridDate(ud.dt, firstGridDay).split("T")[0];
                 return stringDt === stringDate;
             }) ?? [];
 
         const comments =
             userData.gitlabCommentsStatistics?.items
                 .filter((ud) => {
-                    const stringDt = ud.dt.split("T")[0];
+                    const stringDt = toGridDate(ud.dt, firstGridDay).split("T")[0];
                     return stringDt === stringDate;
                 })
                 .map(({ comment, dt }) => ({
                     title: comment,
-                    createdAt: dt,
+                    createdAt: toGridDate(dt, firstGridDay),
                 })) ?? [];
 
         const dayConfluenceEvents = userData.confluence
             .filter((ud) => {
-                const stringDt = ud.date.split("T")[0];
+                const stringDt = toGridDate(ud.date, firstGridDay).split("T")[0];
                 return stringDt === stringDate;
             });
 
@@ -110,7 +128,7 @@ export const preparingStatData = (
                 return {
                     title: `${title}:\n${pageTitle}\nВерсия: ${version}${countText}`,
                     url,
-                    createdAt: date,
+                    createdAt: toGridDate(date, firstGridDay),
                 };
             }) ?? [];
 
@@ -126,12 +144,12 @@ export const preparingStatData = (
                 chartType: ChartTypeEnum.COMMITS,
             },
             {
-                items: mrOpened.map((item) => ({ ...item, createdAt: item.dt })),
+                items: mrOpened.map((item) => ({ ...item, createdAt: toGridDate(item.dt, firstGridDay) })),
                 sourceType: SourceTypes.mrOpened,
                 chartType: ChartTypeEnum.MR_OPENED,
             },
             {
-                items: mrClosed.map((item) => ({ ...item, createdAt: item.dt })),
+                items: mrClosed.map((item) => ({ ...item, createdAt: toGridDate(item.dt, firstGridDay) })),
                 sourceType: SourceTypes.mrClosed,
                 chartType: ChartTypeEnum.MR_CLOSED,
             },

@@ -2,6 +2,7 @@
  * MSW обработчики для мокирования API запросов
  */
 import { http, HttpResponse } from 'msw';
+import type { UserPageState } from "shared/models";
 
 // Импортируем моковые данные из JSON файлов в каталоге data
 import confluenceStatsData from './data/confluenceStats.json';
@@ -12,9 +13,11 @@ import gitlabUsersData from './data/gitlabUsers.json';
 import gitTasksDataFile from './data/gitTasksData.json';
 import jiraStatsData from './data/jiraStats.json';
 import jiraUsersData from './data/jiraUsers.json';
+import jobsStatusData from './data/jobsStatus.json';
 import presenceStatsData from './data/presenceStats.json';
 import presenceUsersData from './data/presenceUsers.json';
 import tasksStatsData from './data/tasksStats.json';
+import usersPageStateData from './data/usersPageState.json';
 
 // Экспортируем данные для использования в тестах
 // Извлекаем массивы из обёртки {json: [...]}
@@ -29,6 +32,10 @@ export const mockPresenceStats = (presenceStatsData as any).json || presenceStat
 export const mockPresenceUsers = (presenceUsersData as any).json || presenceUsersData;
 export const mockConfluenceStats = (confluenceStatsData as any).json || confluenceStatsData;
 export const mockTasksStats = (tasksStatsData as any).json || tasksStatsData;
+export const mockJobsStatus = (jobsStatusData as any).json || jobsStatusData;
+
+const initialUserPageState = ((usersPageStateData as any).json || usersPageStateData) as UserPageState;
+let demoUserPageState: UserPageState = initialUserPageState;
 
 /**
  * Обработчики MSW для API endpoints
@@ -83,10 +90,7 @@ export const handlers = [
 
     // Confluence Stats (articles)
     http.get('*/api/Confluence/articles', () => {
-        return HttpResponse.json({
-            items: mockConfluenceStats,
-            dtStorageMax: "2025-11-24T15:35:36.677+00:00"
-        });
+        return HttpResponse.json(mockConfluenceStats);
     }),
 
     // Tasks Stats
@@ -95,13 +99,34 @@ export const handlers = [
     }),
 
     http.get('*/api/users-page/state', () => {
-        return HttpResponse.json({
-            roles: [],
-            userRoles: {},
-            userNames: {},
-            linkedEmails: {},
-            version: 1,
-        });
+        return HttpResponse.json(demoUserPageState);
+    }),
+
+    http.post('*/api/users-page/state', async ({ request }) => {
+        demoUserPageState = await request.json() as UserPageState;
+        return HttpResponse.json({ success: true, version: demoUserPageState.version });
+    }),
+
+    http.patch('*/api/users-page/state', async ({ request }) => {
+        const updates = await request.json() as Partial<UserPageState>;
+        demoUserPageState = {
+            ...demoUserPageState,
+            ...updates,
+            version: demoUserPageState.version + 1,
+        };
+        return HttpResponse.json({ success: true, version: demoUserPageState.version });
+    }),
+
+    http.delete('*/api/users-page/state', () => {
+        demoUserPageState = initialUserPageState;
+        return new HttpResponse(null, { status: 204 });
+    }),
+
+    http.get('*/api/users-page/state/exists', () => {
+        return HttpResponse.json({ exists: true });
+    }),
+
+    http.get('*/api/jobs/list', () => {
+        return HttpResponse.json(mockJobsStatus);
     }),
 ];
-

@@ -12,19 +12,33 @@ import { queryClient } from "./lib/queryClient";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 
-root.render(
-    <React.StrictMode>
-        <QueryClientProvider client={queryClient}>
-            <FilterContextProvider>
-                <DataContextProvider>
-                    <LoaderPopupContextProvider>
-                        <App />
-                    </LoaderPopupContextProvider>
-                </DataContextProvider>
-            </FilterContextProvider>
-        </QueryClientProvider>
-    </React.StrictMode>
-);
+const startApp = async () => {
+    if (import.meta.env.VITE_DEMO === "true") {
+        const { worker } = await import("./mocks/browser");
+        await worker.start({
+            onUnhandledRequest: "bypass",
+            serviceWorker: {
+                url: `${import.meta.env.BASE_URL}mockServiceWorker.js`,
+            },
+        });
+    }
+
+    root.render(
+        <React.StrictMode>
+            <QueryClientProvider client={queryClient}>
+                <FilterContextProvider>
+                    <DataContextProvider>
+                        <LoaderPopupContextProvider>
+                            <App />
+                        </LoaderPopupContextProvider>
+                    </DataContextProvider>
+                </FilterContextProvider>
+            </QueryClientProvider>
+        </React.StrictMode>
+    );
+};
+
+void startApp();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

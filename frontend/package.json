@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "packageManager": "pnpm@11.25.0",
   "dependencies": {
     "@antv/g2": "^5.2.1",
     "@emotion/react": "^11.13.0",
@@ -30,6 +31,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "demo": "VITE_DEMO=true VITE_DISABLE_PRESENCE=true VITE_DISABLE_JIRA_USERS=true VITE_DISABLE_GITLAB_USERS=true vite",
     "start": "vite",
     "lint": "eslint --ext=.tsx,.ts src",
     "lint:fix": "eslint --fix --ext=.tsx,.ts src",

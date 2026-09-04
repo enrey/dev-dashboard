@@ -126,19 +126,19 @@ export const DashboardCard = () => {
 
 ```bash
 # Установка зависимостей
-npm install
+pnpm install
 
 # Запуск в режиме разработки
-npm run dev
+pnpm dev
 
 # Сборка проекта
-npm run build
+pnpm build
 
 # Проверка кода
-npm run lint:fix
+pnpm lint:fix
 
 # Запуск тестов
-npm run test
+pnpm test
 ```
 
 ### Структура команд в package.json
@@ -286,10 +286,10 @@ export { api };
 ```dockerfile
 FROM node:20.15-alpine as builder
 WORKDIR '/app'
-COPY package.json package-lock.json* ./
-RUN npm ci && npm cache clean --force
+COPY package.json pnpm-lock.yaml ./
+RUN corepack enable && pnpm install --frozen-lockfile
 COPY . .
-RUN npm run build
+RUN pnpm build
 
 FROM nginx
 COPY --from=builder /app/nginx/nginx.conf /etc/nginx/conf.d/default.conf

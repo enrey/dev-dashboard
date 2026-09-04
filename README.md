@@ -59,7 +59,7 @@ SDK для такой проверки не требуется.
 
 ### Требования
 
-- Node.js 20.19+ и npm.
+- Node.js 20.19+ и Corepack (входит в Node.js; используется для pnpm).
 - .NET SDK 7 для основных API.
 - .NET Core SDK 3.1 только для устаревшего сервиса фоновых задач.
 - Python 3.14+ и `uv`.
@@ -81,11 +81,34 @@ SDK для такой проверки не требуется.
 
    ```bash
    cd frontend
-   npm ci
-   npm run dev
+   corepack enable
+   pnpm install --frozen-lockfile
+   pnpm dev
    ```
 
 4. Откройте <http://localhost:3000>.
+
+### Frontend demo-режим без бэкенда
+
+Демо использует MSW и снимки тестовых ответов API, включённые в frontend. Поэтому
+его можно запускать без Docker, OpenSearch и API-сервисов:
+
+```bash
+cd frontend
+corepack enable
+pnpm install --frozen-lockfile
+pnpm demo -- --port 8082
+```
+
+Откройте, например,
+<http://localhost:8082/actions?dateStart=04-14-2025&dateEnd=04-28-2025>.
+В demo-режиме MSW запускается до React и перехватывает запросы к API, поэтому
+бэкенд не требуется. Данные в `frontend/src/mocks/data/` — анонимизированный
+тестовый срез в тематике «Войны и мира». Для production demo-сборки используйте
+`VITE_DEMO=true pnpm build`.
+
+Фронтенд использует pnpm через Corepack. Docker-сборка хранит pnpm store в
+BuildKit cache, что ускоряет повторные сборки; не заменяйте его на npm-кэш.
 
 ### 2. Users State API
 
@@ -148,7 +171,7 @@ Frontend:
 
 ```bash
 cd frontend
-npm test
+pnpm test
 ```
 
 Users State API:

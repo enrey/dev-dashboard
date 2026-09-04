@@ -7,7 +7,7 @@ const STORAGE_KEY = "sidebar-collapsed";
 export const useSidebarContext = (): SidebarContextData => {
     const [isCollapsed, setIsCollapsed] = useState<boolean>(() => {
         const stored = localStorage.getItem(STORAGE_KEY);
-        return stored ? JSON.parse(stored) : false;
+        return stored ? JSON.parse(stored) : true;
     });
 
     useEffect(() => {
